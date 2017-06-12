@@ -42,7 +42,7 @@ $('.logo').css('height', window.innerHeight+'px');
         // console.log(selectedPrevious, selectedThis);
         containerSelect.toggleClass("selected");
         $('.selected').not(containerSelect).removeClass("selected");
-
+////////Ugly solution to inaccurate scrollTop problem
         if (selectedPrevious<selectedThis){
           console.log('hi')
           $('html, body').stop().animate({
