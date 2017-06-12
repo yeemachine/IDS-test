@@ -33,9 +33,17 @@ $('.logo').css('height', window.innerHeight+'px');
 
 //////expand function
 
-      speaker.click(function() {
-       $('.selected').not($(this)).removeClass("selected");
-       $(this).toggleClass("selected");
+      title.click(function() {
+        var containerSelect = $(this).parent()
+        var selectedHeight = window.height *.1
+        $('.selected').not(containerSelect).removeClass("selected");
+
+       containerSelect.toggleClass("selected");
+
+       $('html, body').stop().animate({
+       scrollTop: $(this).offset().top - 20
+     }, 'slow');
+
      });
 
    }

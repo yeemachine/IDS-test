@@ -61,9 +61,11 @@ h2 {
   transition: .4s;
 }
 .title{
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  position: absolute;
 }
 .copy{
   display: flex;
@@ -83,7 +85,7 @@ h2 {
 .speaker .copy{
   opacity: 0;
   margin-left: 15.5vw;
-  margin-top: 2.5vw;
+  margin-top: 12.5vw;
   margin-bottom: 2.5vw;
   color:white;
   transition: .4s;
