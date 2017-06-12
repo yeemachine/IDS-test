@@ -91,6 +91,7 @@ h2 {
 .speaker .description{
   font-size: 20px;
   width: 50%;
+  margin-right: 5vw;
 }
 .speaker .photo{
   width: 50%;
