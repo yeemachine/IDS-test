@@ -1,0 +1,70 @@
+html {
+  -webkit-tap-highlight-color: transparent;
+  font-weight: normal;
+  font-smooth: never;
+ -webkit-font-smoothing: antialiased;
+
+}
+
+.stroke{
+  width:10vh;
+  height: 10vh;
+  margin-left: 5px;
+  transition: 1s;
+  animation: dash 3s cubic-bezier(0.670, 0.005, 0.200, 1.000);
+  animation-fill-mode: forwards;
+
+}
+
+.stroke2{
+  opacity: 0;
+  width:10vh;
+  height: 20vh;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  transition: 1s;
+  animation: dash 2s cubic-bezier(0.670, 0.005, 0.200, 1.000);
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+
+.stroke3{
+  opacity: 0;
+  width:10vh;
+  height: 10vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 7.9vh;
+  transition: .25s;
+  animation: dash 1s cubic-bezier(0.670, 0.005, 0.200, 1.000);
+  animation-fill-mode: forwards;
+  animation-delay: .8s;
+}
+
+@keyframes dash {
+0% {
+opacity: 1;
+stroke-dasharray: 3000;
+stroke-dashoffset: 3000;
+}
+50% {
+opacity: 1;
+stroke-dasharray: 3000;
+stroke-dashoffset: 5;
+}
+100% {
+opacity: 1;
+stroke-dasharray: 3000;
+stroke-dashoffset: 0;
+}
+}
+
+@media screen and (min-width: 770px) {
+
+
+}
+
+@media screen and (max-width: 770px) {
+
+
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+
+html, body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#IDS {
+  width: 60vh;
+  margin-bottom: 50px;
+}
+
+.logo {
+  background: url('http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg') repeat center center;
+  background-blend-mode: multiply;
+  background-color: #29377a;
+  display: table-cell;
+  width: 100vw;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 14px;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: left;
+  top: 0;
+  left: 25px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+/*This is the div that contains the past speaker list*/
+
+.info {
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 10vw;
+  text-align: left;
+  color: white;
+  width: 90vw;
+  margin: auto;
+  border-bottom: 1px solid white;
+  transition: .4s;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.copy{
+  display: flex;
+  align-items: flex-start;
+}
+
+.event p {
+  font-size: 14px;
+  display: inline-block;
+  width: 30px;
+}
+
+.speaker:hover {
+  color: royalblue;
+  border-bottom: 1px solid royalblue;
+}
+.speaker .copy{
+  opacity: 0;
+  margin-left: 18vw;
+  color:white;
+  transition: .4s;
+  pointer-events: none;
+}
+
+.speaker .description{
+  font-size: 20px;
+  width: 50%;
+}
+.speaker .photo{
+  width: 50%;
+  height: 50vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.speaker.selected .copy{
+  opacity: 1;
+  pointer-events: all;
+}
+.speaker.selected{
+  max-height: 80vh;
+  padding-bottom: 50px;
+
+}
+.speaker .month{
+  width: 3vw;
+}
+.speaker .date {
+  font-size: 9vw;
+  font-style: normal;
+}
+
+.speaker .name {
+  width: 40vw;
+  display: inline-block;
+  padding-left: 5vw;
+  font-size: 40px;
+  font-weight: normal;
+}
