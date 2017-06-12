@@ -55,7 +55,7 @@ h2 {
   max-height: 10vw;
   text-align: left;
   color: white;
-  width: 90vw;
+  width: 92.5vw;
   margin: auto;
   border-bottom: 1px solid white;
   transition: .4s;
@@ -82,7 +82,7 @@ h2 {
 }
 .speaker .copy{
   opacity: 0;
-  margin-left: 18vw;
+  margin-left: 15.5vw;
   margin-top: 2.5vw;
   margin-bottom: 2.5vw;
   color:white;
@@ -107,7 +107,7 @@ h2 {
   pointer-events: all;
 }
 .speaker.selected{
-  max-height: 92.5vh;
+  max-height: 90vh;
   padding-bottom: 50px;
 
 }
@@ -122,7 +122,7 @@ h2 {
 .speaker .name {
   width: 40vw;
   display: inline-block;
-  padding-left: 5vw;
+  padding-left: 2.5vw;
   font-size: 40px;
   font-weight: normal;
 }
