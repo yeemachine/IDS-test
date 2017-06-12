@@ -17,7 +17,7 @@ $('.logo').css('height', window.innerHeight+'px');
       var speakerImg = json.speakers[speakerID].photo;
       console.log(speakerDesc);
 //////component variables
-      var speaker = $('<div class="speaker" id="'+speakerID+'"></div>');
+      var speaker = $('<div class="speaker" id="'+speakerID+'" data="'+i+'"></div>');
       var month = $('<div class="month">'+speakerMonth+'</div>');
       var date = $('<div class="date">'+speakerDate+'</div>');
       var name = $('<div class="name">'+speakerName+'</div>');
@@ -35,14 +35,26 @@ $('.logo').css('height', window.innerHeight+'px');
 
       title.click(function() {
         var containerSelect = $(this).parent()
-        var selectedHeight = window.height *.1
+        var selectedHeight = $('.selected').height() - $(containerSelect).height()
+
+        var selectedPrevious = Number.parseInt($('.selected').attr("data"));
+        var selectedThis = Number.parseInt($(containerSelect).attr("data"));
+        // console.log(selectedPrevious, selectedThis);
+        containerSelect.toggleClass("selected");
         $('.selected').not(containerSelect).removeClass("selected");
 
-       containerSelect.toggleClass("selected");
+        if (selectedPrevious<selectedThis){
+          console.log('hi')
+          $('html, body').stop().animate({
+          scrollTop: $(this).offset().top - selectedHeight - 60
+        }, 'slow');
+        }else{
+          $('html, body').stop().animate({
+          scrollTop: $(this).offset().top - 20
+          }, 'slow');
+        }
 
-       $('html, body').stop().animate({
-       scrollTop: $(this).offset().top - 20
-     }, 'slow');
+
 
      });
 
