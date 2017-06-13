@@ -5,8 +5,12 @@ html {
  -webkit-font-smoothing: antialiased;
 
 }
+.svgcontainer.hover {
+  cursor: pointer;
+  pointer-events: all;
+}
 
-.stroke{
+.stroke.load{
   width:10vh;
   height: 10vh;
   margin-left: 5px;
@@ -16,7 +20,7 @@ html {
 
 }
 
-.stroke2{
+.stroke2.load{
   opacity: 0;
   width:10vh;
   height: 20vh;
@@ -28,7 +32,7 @@ html {
   animation-delay: .5s;
 }
 
-.stroke3{
+.stroke3.load{
   opacity: 0;
   width:10vh;
   height: 10vh;
@@ -39,6 +43,23 @@ html {
   animation: dash 1s cubic-bezier(0.670, 0.005, 0.200, 1.000);
   animation-fill-mode: forwards;
   animation-delay: .8s;
+}
+
+
+.stroke.hover{
+  animation: dash2 .5s cubic-bezier(0.5, 0.5, 0.5, 0.5) infinite;
+  animation-fill-mode: forwards;
+
+}
+
+.stroke2.hover{
+  animation: dash2 .5s cubic-bezier(0.5, 0.5, 0.5, 0.5) infinite;
+  animation-fill-mode: forwards;
+}
+
+.stroke3.hover{
+  animation: dash2 .5s cubic-bezier(0.5, 0.5, 0.5, 0.5) infinite;
+  animation-fill-mode: forwards;
 }
 
 @keyframes dash {
@@ -57,6 +78,19 @@ opacity: 1;
 stroke-dasharray: 3000;
 stroke-dashoffset: 0;
 }
+}
+@keyframes dash2 {
+  0% {
+  opacity: 1;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 200;
+  }
+
+  100% {
+  opacity: 1;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 100;
+  }
 }
 
 @media screen and (min-width: 770px) {
