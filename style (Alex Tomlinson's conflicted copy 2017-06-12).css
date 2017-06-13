@@ -115,6 +115,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   max-height: 10vw;
+  height: 10vw;
   text-align: left;
   color: white;
   width: 92.5vw;
@@ -177,17 +178,16 @@ h2 {
 }
 .speaker.selected{
   max-height: 90vh;
+  height: 90vh;
   padding-bottom: 50px;
 
 }
 .speaker .month{
   width: 3vw;
 }
-
 .date {
   font-family: Helvetica, Arial, sans-serif;
 }
-
 .speaker .date {
   font-size: 9vw;
   font-weight: 400;

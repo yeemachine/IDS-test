@@ -13,7 +13,7 @@ $('.logo').css('height', window.innerHeight+'px');
 ///loop for initial load
    for (i; i < jsonLength; i++) {
 ///////gets json data
-      var speakerID = "speaker"+i;
+      var speakerID = "speaker"+(i+1);
       var speakerMonth = json.speakers[speakerID].month;
       var speakerDate = json.speakers[speakerID].date;
       var speakerName = json.speakers[speakerID].name;
@@ -21,7 +21,7 @@ $('.logo').css('height', window.innerHeight+'px');
       var speakerImg = json.speakers[speakerID].photo;
       console.log(speakerDesc);
 //////component variables
-      var speaker = $('<div class="speaker" id="'+speakerID+'" data="'+i+'"></div>');
+      var speaker = $('<div class="speaker" id="'+speakerID+'" data="'+(i+1)+'"></div>');
       var month = $('<div class="month">'+speakerMonth+'</div>');
       var date = $('<div class="date">'+speakerDate+'</div>');
       var name = $('<div class="name">'+speakerName+'</div>');
@@ -39,24 +39,34 @@ $('.logo').css('height', window.innerHeight+'px');
 
       title.click(function() {
         var containerSelect = $(this).parent()
-        var selectedHeight = $('.selected').height() - $(containerSelect).height()
+        // var selectedHeight = $('.selected').height() - $(containerSelect).height()
 
-        var selectedPrevious = Number.parseInt($('.selected').attr("data"));
-        var selectedThis = Number.parseInt($(containerSelect).attr("data"));
+        // var selectedPrevious = Number.parseInt($('.selected').attr("data"));
+        // var selectedThis = Number.parseInt($(containerSelect).attr("data"));
+        // var scrollAmount = $(window).height() + 50 + $(window).width() * 0.1 * (selectedThis)
+        // console.log(scrollAmount);
         // console.log(selectedPrevious, selectedThis);
         containerSelect.toggleClass("selected");
-        $('.selected').not(containerSelect).removeClass("selected");
+        // $('.selected').not(containerSelect).removeClass("selected");
 ////////Ugly solution to inaccurate scrollTop problem
-        if (selectedPrevious<selectedThis){
-          console.log('hi')
-          $('html, body').stop().animate({
-          scrollTop: $(this).offset().top - selectedHeight - 60
-        }, 'fast');
-        }else{
-          $('html, body').stop().animate({
-          scrollTop: $(this).offset().top - 20
-        }, 'fast');
-        }
+        // if (selectedPrevious<selectedThis){
+        //   console.log('hi')
+        //   $('html, body').stop().animate({
+        //   scrollTop: $(this).offset().top - selectedHeight - 60
+        // }, 'fast');
+        // }else{
+        //   $('html, body').stop().animate({
+        //   scrollTop: $(this).offset().top - 20
+        // }, 'fast');
+        // }
+        $('html, body').stop().animate({
+        scrollTop: $(this).offset().top  - 20
+      }, 'fast');
+
+      //   $('html, body').stop().animate({
+      //   scrollTop: scrollAmount
+      // }, 'fast');
+
      });
    }
 
