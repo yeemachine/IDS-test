@@ -10,6 +10,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
+
 }
 
 #IDS {
@@ -59,13 +60,17 @@ h2 {
   margin: auto;
   border-bottom: 1px solid white;
   transition: .4s;
+  overflow: hidden;
 }
 .title{
-  width: 100%;
+  width: 92.5vw;
   display: flex;
   flex-direction: row;
   align-items: baseline;
   position: absolute;
+}
+.title:hover{
+  cursor: pointer;
 }
 .copy{
   display: flex;
@@ -99,7 +104,7 @@ h2 {
 }
 .speaker .photo{
   width: 50%;
-  height: 50vh;
+  height: 70vh;
   background-size: contain;
   background-repeat: no-repeat;
 }

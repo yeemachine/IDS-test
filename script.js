@@ -1,3 +1,7 @@
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+  });
+
 $( document ).ready(function() {
 $('.logo').css('height', window.innerHeight+'px');
 
@@ -47,28 +51,18 @@ $('.logo').css('height', window.innerHeight+'px');
           console.log('hi')
           $('html, body').stop().animate({
           scrollTop: $(this).offset().top - selectedHeight - 60
-        }, 'slow');
+        }, 'fast');
         }else{
           $('html, body').stop().animate({
           scrollTop: $(this).offset().top - 20
-          }, 'slow');
+        }, 'fast');
         }
-
-
-
      });
-
    }
 
-   console.log(jsonLength);
    $('.info').html(container);
 
  });
-
-
-
-
-
 
 
 
