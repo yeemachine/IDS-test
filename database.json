@@ -1,101 +1,93 @@
 {
     "speakers": {
 		    "speaker1": {
-            "month":"Nov",
-            "date":"17",
+            "month":"Sep",
+            "date":"16",
+            "fullDate":"2016/11/17",
+            "css":"nana",
             "name":"Alex Tomlinson",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker2": {
-            "month":"Nov",
-            "date":"17",
+            "month":"",
+            "date":"23",
+            "fullDate":"2017/06/15",
+            "css":"rich",
             "name":"Nana Hokusai",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker3": {
-            "month":"Nov",
-            "date":"17",
+            "month":"",
+            "date":"30",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Mr. Mime",
             "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker4": {
-            "month":"Nov",
-            "date":"17",
+            "month":"Oct",
+            "date":"07",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Pokemon Go to the polls",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker5": {
-            "month":"Nov",
-            "date":"17",
+            "month":"",
+            "date":"21",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Douglass Is ",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker6": {
-            "month":"Nov",
-            "date":"17",
+            "month":"",
+            "date":"28",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Alex Tomlinson",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker7": {
             "month":"Nov",
-            "date":"17",
+            "date":"04",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Happy Tree Friends",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker8": {
-            "month":"Nov",
-            "date":"17",
+            "month":"",
+            "date":"11",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Alex Tomlinson",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker9": {
-            "month":"Nov",
-            "date":"17",
+            "month":"",
+            "date":"18",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Peter Peter",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         },
         "speaker10": {
-            "month":"Nov",
-            "date":"17",
+            "month":"Dec",
+            "date":"09",
+            "fullDate":"2017/11/17",
+            "css":"alex",
             "name":"Cooper Cooper",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
-            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
-        },
-        "speaker11": {
-            "month":"",
-            "date":"17",
-            "name":"Alex Tomlinson",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
-            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
-        },
-        "speaker12": {
-            "month":"Nov",
-            "date":"17",
-            "name":"Alex Tomlinson",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
-            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
-        },
-        "speaker13": {
-            "month":"Nov",
-            "date":"17",
-            "name":"Alex Tomlinson",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
-            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
-        },
-        "speaker13": {
-            "month":"Nov",
-            "date":"17",
-            "name":"Alex Tomlinson",
-            "description":"Nana Adusei-PokuÂ is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published â€˜The Challenge to Conceptualise the Multiplicity of Multiplicitiesâ€“Post-Black Art and Its Intricaciesâ€™ in â€˜Post-racial Imaginaries, a special issue of Dark Matterâ€™, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory. ",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.  ",
             "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
         }
 

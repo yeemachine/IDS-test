@@ -179,8 +179,28 @@ h2 {
 .speaker.selected{
   max-height: 90vh;
   padding-bottom: 50px;
-
 }
+.speaker.past .title{
+  opacity: .3;
+}
+.speaker.past{
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.speaker.past:hover{
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.speaker.future.current{
+  max-height: 90vh;
+  padding-bottom: 50px;
+}
+.speaker.future.current .title{
+  color: crimson;
+}
+.speaker.future.current .copy{
+  opacity: 1;
+}
+
 .speaker .month{
   width: 3vw;
 }

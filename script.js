@@ -3,6 +3,10 @@ $(window).on('beforeunload', function() {
   });
 
 $( document ).ready(function() {
+  var today = new Date();
+  var currentSpeaker;
+
+
 $('.logo').css('height', window.innerHeight+'px');
 
  $.getJSON("database.json", function(json) {
@@ -19,7 +23,9 @@ $('.logo').css('height', window.innerHeight+'px');
       var speakerName = json.speakers[speakerID].name;
       var speakerDesc = json.speakers[speakerID].description;
       var speakerImg = json.speakers[speakerID].photo;
-      console.log(speakerDesc);
+      var fullDate = json.speakers[speakerID].fullDate;
+
+      // console.log(speakerDesc);
 //////component variables
       var speaker = $('<div class="speaker" id="'+speakerID+'" data="'+(i+1)+'"></div>');
       var month = $('<div class="month">'+speakerMonth+'</div>');
@@ -30,6 +36,30 @@ $('.logo').css('height', window.innerHeight+'px');
 
       var title = $('<div class="title"></div>');
       var copy = $('<div class="copy"></div>');
+
+
+
+      var maxDate = new Date(fullDate);
+      var minDate = new Date(fullDate);
+      maxDate.setDate(maxDate.getDate() + 1);
+      minDate.setDate(minDate.getDate() - 6);
+
+
+      if (today > minDate && today < maxDate){
+        console.log('in range');
+        speaker.addClass('current');
+        currentSpeaker = json.speakers[speakerID].css;
+
+      }
+      if (today < maxDate){
+        console.log('not happened yet');
+        speaker.addClass('future');
+      }
+      if (today > maxDate){
+        console.log('event passed');
+        speaker.addClass('past');
+      }
+
       title.append(month,date,name);
       copy.append(desc,photo);
       speaker.append(title,copy);
@@ -71,6 +101,8 @@ $('.logo').css('height', window.innerHeight+'px');
    }
 
    $('.info').html(container);
+   $('.speaker').addClass(currentSpeaker);
+   console.log(currentSpeaker);
 
  });
 

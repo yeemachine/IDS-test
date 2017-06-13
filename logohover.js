@@ -8,21 +8,7 @@ window.onload = function() {
     var stroke2 = svgDoc.getElementsByClassName("stroke2");
     var stroke3 = svgDoc.getElementsByClassName("stroke3");
     var load = svgDoc.getElementsByClassName("load");
- //    var svgDoc;
- //    var stroke1;
- //    var stroke2;
- //    var stroke3;
- //    var container;
- //    var load;
- //    mySVG.addEventListener("load",function() {
- //      svgDoc = mySVG.contentDocument;
- //      container = svgDoc.getElementsByClassName("svgcontainer");
- //      stroke1 = svgDoc.getElementsByClassName("stroke");
- //      stroke2 = svgDoc.getElementsByClassName("stroke2");
- //      stroke3 = svgDoc.getElementsByClassName("stroke3");
- //      load = svgDoc.getElementsByClassName("load");
- //      stroke1.addEventListener("mousedown",function(){alert('hello world!')},false);
- // }, false);
+
 
     $("#IDS").mouseenter(function() {
       $(load).removeClass('load');
