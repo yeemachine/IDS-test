@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:900&subset=latin-ext');
 
 
 html, body {
@@ -14,32 +14,90 @@ html, body {
 }
 
 #IDS {
-  width: 60vh;
-  margin-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color: crimson;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  animation: load 3s forwards;
+}
+
+@keyframes load {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+#IDSload {
+  width: 25vw;
+  margin-bottom: 5vh;
 }
 
 .logo {
-  background: url('http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg') repeat center center;
+  background: url('regina.jpg') repeat center center;
   background-blend-mode: multiply;
-  background-color: #29377a;
+  background-color: crimson;
   display: table-cell;
   width: 100vw;
+  height: 100vh;
   text-align: center;
   vertical-align: middle;
 }
 
-h1 {
-  font-weight: normal;
-  font-size: 14px;
-  position: absolute;
-  transform: rotate(90deg);
-  transform-origin: left;
-  top: 0;
-  left: 25px;
+.ids {
+text-align: left;
+position: absolute;
+top: 0;
+left: 15px;
+font-weight: normal;
+font-size: 20px;
 }
 
+h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  border-top: 1px solid white;
+}
 h2 {
-  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-size: 7vw;
+  transform: rotate(-45deg);
+  transform-origin: center;
+}
+
+.credit {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 12px;
+  transform: rotate(-90deg);
+  transform-origin: right;
 }
 
 /*This is the div that contains the past speaker list*/
@@ -84,8 +142,8 @@ h2 {
 }
 
 .speaker:hover {
-  color: royalblue;
-  border-bottom: 1px solid royalblue;
+  color: crimson;
+  border-bottom: 1px solid crimson;
 }
 .speaker .copy{
   opacity: 0;
@@ -104,7 +162,7 @@ h2 {
 }
 .speaker .photo{
   width: 50%;
-  height: 70vh;
+  height: 50vh;
   background-size: contain;
   background-repeat: no-repeat;
 }
