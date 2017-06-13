@@ -25,21 +25,19 @@ window.onload = function() {
  // }, false);
 
     $("#IDS").mouseenter(function() {
-
       $(load).removeClass('load');
       $(container).addClass('hover');
       $(stroke1).addClass('hover');
       $(stroke2).addClass('hover');
       $(stroke3).addClass('hover');
-
     // console.log('mouseover');
    });
+
    $("#IDS").mouseleave(function() {
      $(container).removeClass('hover');
      $(stroke1).removeClass('hover');
      $(stroke2).removeClass('hover');
      $(stroke3).removeClass('hover');
-
     // console.log('mouseout');
    });
 
@@ -48,6 +46,7 @@ window.onload = function() {
      $('html, body').animate({
      scrollTop: 0
    }, 'fast');
+   $('.selected').removeClass("selected");
    });
 
 };
