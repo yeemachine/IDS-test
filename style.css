@@ -37,7 +37,7 @@ html, body {
 
 
 .load {
-  background-color: crimson;
+  /*background-color: crimson;*/
   display: flex;
   align-items: center;
   justify-content: center;
