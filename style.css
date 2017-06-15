@@ -66,6 +66,17 @@ html, body {
     z-index: -1;
   }
 }
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 #IDSload {
   width: 25vw;
@@ -81,6 +92,7 @@ html, body {
   text-align: center;
   vertical-align: middle;
   opacity: 0;
+  animation: appear 3s forwards;
 }
 
 
