@@ -1,14 +1,14 @@
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
     // $('.load').addClass('regina');
-    document.getElementsByClassName('load')[0].style.background = '#DC143C';
+
   });
 
 $( document ).ready(function() {
   var today = new Date();
   var currentSpeaker;
 
-
+document.getElementsByClassName('load')[0].style.background = '#DC143C';
 $('.logo').css('height', window.innerHeight+'px');
 
  $.getJSON("database.json", function(json) {
