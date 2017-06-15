@@ -1,12 +1,13 @@
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
+    $('.load').addClass('regina');
   });
 
 $( document ).ready(function() {
   var today = new Date();
   var currentSpeaker;
 
-$('.load').addClass('regina');
+
 $('.logo').css('height', window.innerHeight+'px');
 
  $.getJSON("database.json", function(json) {
