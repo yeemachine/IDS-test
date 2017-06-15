@@ -1,0 +1,41 @@
+/*::selection {
+  background: #98FB98;
+}
+
+::-moz-selection {
+  background: #98FB98;
+}*/
+
+.artistName.alex  {
+  transform: rotate(-45deg);
+}
+.speaker:hover.alex {
+  color: #98FB98;
+  border-bottom: 1px solid #98FB98;
+}
+.speaker.past:hover.alex {
+  color: #98FB98;
+  border-bottom: 1px solid rgba(255,0,0,0.3);
+}
+.speaker.future.current.alex .title{
+  color: #98FB98;
+}
+
+.current.alex {
+  border-bottom: 1px solid #98FB98;
+}
+a.alex {
+  text-decoration: none;
+  color: #98FB98;
+}
+a.alex:hover {
+  border-bottom: 1px solid #98FB98;
+}
+.load.alex {
+  background-color: #98FB98;
+}
+.home.alex {
+  background: url('alex.jpg') repeat center center;
+  background-color: #98FB98;
+  background-blend-mode: multiply;
+}

@@ -23,6 +23,7 @@ $('.logo').css('height', window.innerHeight+'px');
       var speakerName = json.speakers[speakerID].name;
       var speakerDesc = json.speakers[speakerID].description;
       var speakerImg = json.speakers[speakerID].photo;
+      var speakerCred = json.speakers[speakerID].credits;
       var fullDate = json.speakers[speakerID].fullDate;
 
       // console.log(speakerDesc);
@@ -49,6 +50,8 @@ $('.logo').css('height', window.innerHeight+'px');
         console.log('in range');
         speaker.addClass('current');
         currentSpeaker = json.speakers[speakerID].css;
+        $('.artistName').html(speakerName);
+        $('.credit').html(speakerCred);
 
       }
       if (today < maxDate){
@@ -101,7 +104,8 @@ $('.logo').css('height', window.innerHeight+'px');
    }
 
    $('.info').html(container);
-   $('.speaker').addClass(currentSpeaker);
+
+   $('.speaker, .home, .artistName, .credit, .load').addClass(currentSpeaker);
    console.log(currentSpeaker);
 
  });
