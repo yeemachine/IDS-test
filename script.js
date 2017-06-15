@@ -1,5 +1,6 @@
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
+    $('.load').addClass('regina');
   });
 
 $( document ).ready(function() {
