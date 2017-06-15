@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700,700i&subset=latin-ext');
 
 html, body {
+  /*display: none;*/
   background-color: black;
   color: white;
   margin: 0;
