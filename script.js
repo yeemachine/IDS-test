@@ -102,10 +102,10 @@ $('.logo').css('height', window.innerHeight+'px');
 
      });
    }
-
+   $('.home, .artistName, .credit, .load').addClass(currentSpeaker);
    $('.info').html(container);
 
-   $('.speaker, .home, .artistName, .credit, .load').addClass(currentSpeaker);
+   $('.speaker').addClass(currentSpeaker);
    console.log(currentSpeaker);
 
  });
