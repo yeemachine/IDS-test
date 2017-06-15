@@ -80,6 +80,7 @@ html, body {
   height: 100vh;
   text-align: center;
   vertical-align: middle;
+  opacity: 0;
 }
 
 
