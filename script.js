@@ -37,7 +37,7 @@ $('.logo').css('height', window.innerHeight+'px');
       var date = $('<div class="date">'+speakerDate+'</div>');
       var name = $('<div class="name">'+speakerName+'</div>');
       var desc = $('<div class="description">'+speakerDesc+'</div>');
-      var photo = $('<div class="photo" style="width:50%;background-image:url('+speakerImg+')"></div>');
+      var photo = $('<img class="photo" src="'+speakerImg+'"/>');
 
       var title = $('<div class="title"></div>');
       var copy = $('<div class="copy"></div>');
@@ -76,33 +76,12 @@ $('.logo').css('height', window.innerHeight+'px');
 
       title.click(function() {
         var containerSelect = $(this).parent()
-        // var selectedHeight = $('.selected').height() - $(containerSelect).height()
 
-        // var selectedPrevious = Number.parseInt($('.selected').attr("data"));
-        // var selectedThis = Number.parseInt($(containerSelect).attr("data"));
-        // var scrollAmount = $(window).height() + 50 + $(window).width() * 0.1 * (selectedThis)
-        // console.log(scrollAmount);
-        // console.log(selectedPrevious, selectedThis);
         containerSelect.toggleClass("selected");
-        // $('.selected').not(containerSelect).removeClass("selected");
-////////Ugly solution to inaccurate scrollTop problem
-        // if (selectedPrevious<selectedThis){
-        //   console.log('hi')
-        //   $('html, body').stop().animate({
-        //   scrollTop: $(this).offset().top - selectedHeight - 60
-        // }, 'fast');
-        // }else{
-        //   $('html, body').stop().animate({
-        //   scrollTop: $(this).offset().top - 20
-        // }, 'fast');
-        // }
+
         $('html, body').stop().animate({
         scrollTop: $(this).offset().top  - 20
       }, 'fast');
-
-      //   $('html, body').stop().animate({
-      //   scrollTop: scrollAmount
-      // }, 'fast');
 
      });
    }
@@ -111,6 +90,8 @@ $('.logo').css('height', window.innerHeight+'px');
 
    $('.speaker').addClass(currentSpeaker);
    console.log(currentSpeaker);
+
+
 
  });
 
