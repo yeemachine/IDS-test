@@ -122,7 +122,7 @@ hr {
 .artistName {
   font-family: 'Work Sans', sans-serif;
   font-weight: 900;
-  font-size: 7vw;
+  font-size: 6vw;
   transform-origin: center;
 }
 
@@ -251,7 +251,7 @@ justify-content: center;
 .speaker .name {
   width: 70vw;
   display: inline-block;
-  font-size: 4vw;
+  font-size: calc(25px + 1vw);
   font-weight: normal;
 }
 
@@ -325,7 +325,7 @@ justify-content: center;
     flex-direction: column;
   }
   .speaker .name{
-    font-size: 5vw
+    /*font-size: 5vw*/
   }
   .speaker .copy{
     margin-left: 10vw;
