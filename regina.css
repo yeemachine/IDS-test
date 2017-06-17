@@ -25,7 +25,6 @@ a.regina:hover {
 }
 .load.regina {
   background-color: #DC143C;
-  animation: load 3s forwards;
 }
 .home.regina {
   background: url('regina.jpg') repeat center center;
