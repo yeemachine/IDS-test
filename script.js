@@ -39,6 +39,7 @@ $('.logo').css('height', window.innerHeight+'px');
       var desc = $('<div class="description">'+speakerDesc+'</div>');
       var photo = $('<img class="photo" src="'+speakerImg+'"/>');
 
+      var dateContainer = $('<div class="dateContainer"></div>');
       var title = $('<div class="title"></div>');
       var copy = $('<div class="copy"></div>');
 
@@ -66,8 +67,8 @@ $('.logo').css('height', window.innerHeight+'px');
         console.log('event passed');
         speaker.addClass('past');
       }
-
-      title.append(month,date,name);
+      dateContainer.append(month,date);
+      title.append(dateContainer,name);
       copy.append(desc,photo);
       speaker.append(title,copy);
       container.append(speaker);

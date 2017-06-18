@@ -1,5 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:900&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700,700i&subset=latin-ext');
+@font-face {
+    font-family: 'Halyard Display Regular';
+    src: url('webfonts/halyarddis-regular-webfont.woff2') format('woff2'),
+         url('webfonts/halyarddis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Halyard Display Black';
+    src: url('webfonts/halyarddisblack-webfont.woff2') format('woff2'),
+         url('webfonts/halyarddisblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Halyard Display Extra Light';
+    src: url('webfonts/halyarddisexlt-webfont.woff2') format('woff2'),
+         url('webfonts/halyarddisexlt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html, body {
   /*display: none;*/
@@ -9,8 +34,8 @@ html, body {
   padding: 0;
   text-align: center;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Halyard Display Regular', Helvetica, Arial, sans-serif;
+  font-weight: normal;
   font-size: 17px;
 
 
@@ -53,8 +78,6 @@ html, body {
 
 }
 
-
-
 @keyframes load {
   0% {
     opacity: 1;
@@ -72,6 +95,7 @@ html, body {
     z-index: -1;
   }
 }
+
 @keyframes appear {
   0% {
     opacity: 0;
@@ -104,7 +128,7 @@ html, body {
 .ids {
 text-align: left;
 position: absolute;
-top: 0;
+top: -15px;
 left: 15px;
 font-weight: normal;
 font-size: 17px;
@@ -122,10 +146,11 @@ hr {
 }
 
 .artistName {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Halyard Display Extra Light', Helvetica, Arial, sans-serif;
   font-weight: 900;
-  font-size: 6vw;
+  font-size: 11vw;
   transform-origin: center;
+  text-transform: uppercase;
 }
 
 
@@ -148,7 +173,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-height: 10vw;
+  max-height: 15vw;
   text-align: left;
   color: white;
   width: 92.5vw;
@@ -160,6 +185,7 @@ hr {
 }
 .title{
   width: 92.5vw;
+  height: 30vh;
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -237,7 +263,12 @@ font-size: 1.5vw;
 }
 
 .date {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Halyard Display Extra Light', Arial, sans-serif;
+}
+.dateContainer{
+  display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .speaker .date {
@@ -247,13 +278,12 @@ margin-right: 2.5vw;
 width: 12vw;
 font-weight: 400;
 display: flex;
-justify-content: center;
 }
 
 .speaker .name {
   width: 70vw;
   display: inline-block;
-  font-size: calc(25px + 1vw);
+  font-size: calc(25px + 3vw);
   font-weight: normal;
 }
 
@@ -282,7 +312,7 @@ justify-content: center;
 }
 
 .rightfooter input {
-  font-family: 'Libre Franklin';
+  font-family: 'Halyard Display Regular', Helvetica, Arial, sans-serif;;
   width: 220px;
   font-size: 17px;
   border: none;
@@ -293,7 +323,7 @@ justify-content: center;
 }
 
 .rightfooter button {
-  font-family: 'Libre Franklin';
+  font-family: 'Halyard Display Regular', Helvetica, Arial, sans-serif;;
   font-size: 17px;
   margin-left: 10px;
   background-color: black;
@@ -303,7 +333,7 @@ justify-content: center;
 }
 
 .rightfooter button:hover {
-  font-family: 'Libre Franklin';
+  font-family: 'Halyard Display Regular', Helvetica, Arial, sans-serif;;
   font-size: 17px;
   margin-left: 10px;
   background-color: white;
@@ -321,10 +351,17 @@ justify-content: center;
     max-height: 20vh;
   }
   .speaker .month{
-    margin-left: 5vw;
+    font-size: 17px;
   }
   .copy{
     flex-direction: column;
+  }
+  .dateContainer{
+      flex-direction: column;
+      /*align-items: center;*/
+  }
+  .speaker .date{
+    margin-right: 5vw;
   }
   .speaker .name{
     /*font-size: 5vw*/
@@ -352,7 +389,11 @@ justify-content: center;
     flex-direction: column;
   }
   .title{
+    width: 80vw;
     height: 10vh;
     margin-top: 5vh;
+    margin-left: 10vw;
+    align-items: flex-end;
+
   }
 }
