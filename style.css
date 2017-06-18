@@ -173,7 +173,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-height: 15vw;
+  max-height: 30vh;
   text-align: left;
   color: white;
   width: 92.5vw;
@@ -185,10 +185,12 @@ hr {
 }
 .title{
   width: 92.5vw;
-  height: 30vh;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  height: 15vh;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: flex-end;
   position: absolute;
 }
 .title:hover{
@@ -209,7 +211,7 @@ hr {
 .speaker .copy{
   opacity: 0;
   margin-left: 17.5vw;
-  margin-top: 12.5vw;
+  margin-top: 30vh;
   color:white;
   transition: .25s;
   pointer-events: none;
@@ -264,6 +266,7 @@ font-size: 1.5vw;
 
 .date {
   font-family: 'Halyard Display Extra Light', Arial, sans-serif;
+  line-height: 1;
 }
 .dateContainer{
   display: flex;
@@ -391,8 +394,7 @@ display: flex;
   .title{
     width: 80vw;
     height: 10vh;
-    margin-top: 5vh;
-    margin-left: 10vw;
+    padding-left: 10vw;
     align-items: flex-end;
 
   }
