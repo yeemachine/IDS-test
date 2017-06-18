@@ -21,7 +21,7 @@
         },
         "speaker3": {
             "month":"",
-            "date":"30",
+            "date":"23",
             "fullDate":"2017/06/23",
             "css":"regina",
             "name":"Paul Rand",
@@ -30,8 +30,8 @@
             "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
         },
         "speaker4": {
-            "month":"Oct",
-            "date":"07",
+            "month":"",
+            "date":"30",
             "fullDate":"2017/06/30",
             "css":"alex",
             "name":"Milton Glaser",
@@ -40,8 +40,8 @@
             "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
         },
         "speaker5": {
-            "month":"",
-            "date":"21",
+            "month":"Jul",
+            "date":"07",
             "fullDate":"2017/07/07",
             "css":"alex",
             "name":"Stefan Sagmeister",
@@ -51,7 +51,7 @@
         },
         "speaker6": {
             "month":"",
-            "date":"28",
+            "date":"14",
             "fullDate":"2017/07/14",
             "css":"alex",
             "name":"Saul Bass",
@@ -60,8 +60,8 @@
             "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
         },
         "speaker7": {
-            "month":"Nov",
-            "date":"04",
+            "month":"",
+            "date":"21",
             "fullDate":"2017/07/21",
             "css":"alex",
             "name":"Paula Scher",
@@ -71,7 +71,7 @@
         },
         "speaker8": {
             "month":"",
-            "date":"11",
+            "date":"28",
             "fullDate":"2017/07/28",
             "css":"alex",
             "name":"David Carson",
@@ -80,8 +80,8 @@
             "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
         },
         "speaker9": {
-            "month":"",
-            "date":"18",
+            "month":"Aug",
+            "date":"04",
             "fullDate":"2017/08/04",
             "css":"alex",
             "name":"Michael Bierut",
@@ -90,8 +90,8 @@
             "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
         },
         "speaker10": {
-            "month":"Dec",
-            "date":"09",
+            "month":"",
+            "date":"11",
             "fullDate":"2017/08/11",
             "css":"alex",
             "name":"Massimo Vignelli",
