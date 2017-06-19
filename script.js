@@ -10,7 +10,19 @@ $( document ).ready(function() {
   var today = new Date();
   var currentSpeaker;
 
-// document.getElementsByClassName('load')[0].style.background = '#DC143C';
+
+
+  // var maxDate1 = new Date('2017/6/23');
+  // var minDate1 = new Date('2017/6/23');
+  // maxDate1.setDate(maxDate1.getDate() + 1);
+  // minDate1.setDate(minDate1.getDate() - 6);
+  //
+  // if (today > minDate1 && today < maxDate1){
+  //   document.getElementsByClassName('load')[0].style.background = '#98FB98';
+  // }
+
+
+
 $('.logo').css('height', window.innerHeight+'px');
 
  $.getJSON("database.json", function(json) {
