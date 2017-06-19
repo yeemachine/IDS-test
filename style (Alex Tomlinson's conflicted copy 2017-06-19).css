@@ -393,7 +393,7 @@ display: flex;
     font-size: 17px;
   }
   .copy{
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .dateContainer{
       flex-direction: column;
@@ -436,8 +436,8 @@ display: flex;
 
   }
   .leftfooter, .rightfooter {
-    padding: 0;
-    width: 80%;
+    padding: 10px;
+    width: 90%;
     margin: auto;
   }
   .rightfooter input {

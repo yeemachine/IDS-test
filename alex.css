@@ -1,41 +1,41 @@
 /*::selection {
-  background: #98FB98;
+  background: #3a41a5;
 }
 
 ::-moz-selection {
-  background: #98FB98;
+  background: #3a41a5;
 }*/
 
 .artistName.alex  {
   transform: rotate(-20deg);
 }
 .speaker:hover.alex {
-  color: #98FB98;
-  border-bottom: 1px solid #98FB98;
+  color: #3a41a5;
+  border-bottom: 1px solid #3a41a5;
 }
 .speaker.past:hover.alex {
-  color: #98FB98;
-  border-bottom: 1px solid rgba(0,255,0,0.3);
+  color: #3a41a5;
+  border-bottom: 1px solid rgba(0,0,255,0.3);
 }
 .speaker.future.current.alex .title{
-  color: #98FB98;
+  color: #3a41a5;
 }
 
 .current.alex {
-  border-bottom: 1px solid #98FB98;
+  border-bottom: 1px solid #3a41a5;
 }
 a.alex {
   text-decoration: none;
-  color: #98FB98;
+  color: #3a41a5;
 }
 a.alex:hover {
-  border-bottom: 1px solid #98FB98;
+  border-bottom: 1px solid #3a41a5;
 }
 .load.alex {
-  background-color: #98FB98;
+  background-color: #3a41a5;
 }
 .home.alex {
   background: url('regina.jpg') repeat center center;
-  background-color: #98FB98;
+  background-color: #3a41a5;
   background-blend-mode: multiply;
 }
