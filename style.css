@@ -28,8 +28,7 @@
 
 @font-face {
     font-family: 'Halyard Text Regular';
-    src:
-         url('HalyardText-Reg.woff') format('woff');
+    src: url('webfonts/HalyardText-Reg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -62,6 +61,7 @@ html, body {
   padding: 0;
   text-align: center;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 17px;
@@ -153,6 +153,9 @@ a {
   vertical-align: middle;
   opacity: 0;
   animation: appear 3s forwards;
+  transition:  3s linear;
+
+
 
 }
 
@@ -263,7 +266,10 @@ hr {
   background-repeat: no-repeat;
 }
 
-.speaker.selected .copy{
+.website{
+  margin-top: 5vh;
+}
+.speaker.current .copy, .speaker.selected .copy{
   opacity: 1;
   pointer-events: all;
 }
@@ -367,6 +373,7 @@ display: flex;
   font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;;
   font-size: 17px;
   margin-left: 10px;
+  padding: 5px;
   background-color: black;
   border: 1px solid white;
   color: white;

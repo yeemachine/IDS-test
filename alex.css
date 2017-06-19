@@ -9,6 +9,13 @@
 .artistName.alex  {
   transform: rotate(-20deg);
 }
+.alex .website {
+  color: #3a41a5;
+  border-bottom: 1px solid rgba(58,65,165, 0.5)
+}
+.alex .website:hover{
+border-bottom: 1px solid rgba(58,65,165, 1)
+}
 .speaker:hover.alex {
   color: #3a41a5;
   border-bottom: 1px solid #3a41a5;
