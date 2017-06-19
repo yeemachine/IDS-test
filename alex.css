@@ -7,7 +7,7 @@
 }*/
 
 .artistName.alex  {
-  transform: rotate(-45deg);
+  transform: rotate(-20deg);
 }
 .speaker:hover.alex {
   color: #98FB98;

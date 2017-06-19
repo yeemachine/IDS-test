@@ -65,6 +65,7 @@ html, body {
   font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 17px;
+  overflow-x: hidden;
 
 
 }
@@ -394,7 +395,8 @@ display: flex;
       /*align-items: center;*/
   }
   .speaker .date{
-    margin-right: 5vw;
+    margin-right: 0;
+    margin-left: 0;
   }
   .speaker .name{
     /*font-size: 5vw*/
