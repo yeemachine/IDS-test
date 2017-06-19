@@ -141,7 +141,7 @@ a {
 }
 
 #IDSload {
-  width: 25vw;
+  height: 70vh;
   margin-bottom: 5vh;
 }
 
@@ -272,10 +272,12 @@ hr {
   padding-bottom: 50px;
 }
 .speaker.past .title{
-  opacity: .3;
+  /*opacity: .3;*/
+
 }
 .speaker.past{
   border-bottom: 1px solid rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.3);
 }
 .speaker.past:hover{
   border-bottom: 1px solid rgba(255,255,255,0.3);
@@ -385,9 +387,15 @@ display: flex;
   font-size: 13px;
 }
 @media screen and (max-width: 820px) {
+  #IDSload {
+    width: 70vw;
+    height: auto;
+    margin-bottom: 5vh;
+  }
   .speaker{
     width: 100%;
     max-height: 20vh;
+
   }
   .speaker .month{
     font-size: 17px;
@@ -408,7 +416,7 @@ display: flex;
   }
   .speaker .copy{
     margin-left: 10vw;
-    margin-top: 17.5vh;
+    margin-top: 20vh;
   }
   .speaker .description{
     width: 80vw;
@@ -418,6 +426,7 @@ display: flex;
   .speaker .photo{
     max-width: 80vw;
     max-height: 50vh;
+    margin-bottom: 5vh;
   }
   .speaker.selected{
     max-height: 200vh;
@@ -433,11 +442,14 @@ display: flex;
     height: 10vh;
     padding-left: 10vw;
     align-items: flex-end;
+    background-color: black;
+    z-index: 7;
 
   }
   .leftfooter, .rightfooter {
     padding: 0;
-    width: 80%;
+    padding-top: 50px;
+    width: 85%;
     margin: auto;
   }
   .rightfooter input {

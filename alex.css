@@ -14,8 +14,8 @@
   border-bottom: 1px solid #3a41a5;
 }
 .speaker.past:hover.alex {
-  color: #3a41a5;
-  border-bottom: 1px solid rgba(0,0,255,0.3);
+  color: rgba(58,65,165,0.3);
+  border-bottom: 1px solid rgba(58,65,165,0.3);
 }
 .speaker.future.current.alex .title{
   color: #3a41a5;
