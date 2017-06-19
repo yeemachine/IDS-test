@@ -80,7 +80,7 @@ $('.logo').css('height', window.innerHeight+'px');
           if (array[now]===currentBack){
             $('.home').css({'background-image': 'url("'+array[now]+'")','background-repeat':'','background-size':''});
           }else{
-            $('.home').css({'background-image': 'url("'+array[now]+'")','background-repeat':'','background-size':''});
+            $('.home').css({'background-image': 'url("'+array[now]+'")','background-repeat':'','background-size':'',  'transition':  '3s linear'});
           }
        }, 10000);
 
