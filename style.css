@@ -26,6 +26,34 @@
 
 }
 
+@font-face {
+    font-family: 'Halyard Text Regular';
+    src:
+         url('HalyardText-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Halyard Text Bold';
+    src:
+         url('webfonts/HalyardText-Bd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Halyard Text Italic';
+    src:
+         url('webfonts/HalyardText-It.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body {
   /*display: none;*/
   background-color: black;
@@ -34,7 +62,7 @@ html, body {
   padding: 0;
   text-align: center;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Halyard Display Regular', Helvetica, Arial, sans-serif;
+  font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 17px;
 
@@ -173,7 +201,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-height: 30vh;
+  max-height: 20vh;
   text-align: left;
   color: white;
   width: 92.5vw;
@@ -186,8 +214,8 @@ hr {
 .title{
   width: 92.5vw;
   padding-top: 5vh;
-  padding-bottom: 10vh;
-  height: 15vh;
+  padding-bottom: 5vh;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -211,7 +239,7 @@ hr {
 .speaker .copy{
   opacity: 0;
   margin-left: 17.5vw;
-  margin-top: 30vh;
+  margin-top: 20vh;
   color:white;
   transition: .25s;
   pointer-events: none;
@@ -275,7 +303,7 @@ font-size: 1.5vw;
 }
 
 .speaker .date {
-  font-size: 9vw;
+  font-size: 7.5vw;
 margin-left: 0vw;
 margin-right: 2.5vw;
 width: 12vw;
@@ -286,7 +314,7 @@ display: flex;
 .speaker .name {
   width: 70vw;
   display: inline-block;
-  font-size: calc(25px + 3vw);
+  font-size: calc(25px + 1vw);
   font-weight: normal;
 }
 

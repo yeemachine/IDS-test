@@ -15,7 +15,7 @@
 }
 .speaker.past:hover.alex {
   color: #98FB98;
-  border-bottom: 1px solid rgba(255,0,0,0.3);
+  border-bottom: 1px solid rgba(0,255,0,0.3);
 }
 .speaker.future.current.alex .title{
   color: #98FB98;
@@ -35,7 +35,7 @@ a.alex:hover {
   background-color: #98FB98;
 }
 .home.alex {
-  background: url('alex.jpg') repeat center center;
+  background: url('regina.jpg') repeat center center;
   background-color: #98FB98;
   background-blend-mode: multiply;
 }
