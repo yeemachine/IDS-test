@@ -1,48 +1,48 @@
 /*::selection {
-  background: #3a41a5;
+  background: #96F550;
 }
 
 ::-moz-selection {
-  background: #3a41a5;
+  background: #96F550;
 }*/
 
 .artistName.alex  {
   transform: rotate(-20deg);
 }
 .alex .website {
-  color: #3a41a5;
-  border-bottom: 1px solid rgba(58,65,165, 0.5)
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.5)
 }
 .alex .website:hover{
-border-bottom: 1px solid rgba(58,65,165, 1)
+border-bottom: 1px solid rgba(150,245,80,1)
 }
 .speaker:hover.alex {
-  color: #3a41a5;
-  border-bottom: 1px solid #3a41a5;
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
 }
 .speaker.past:hover.alex {
-  color: rgba(58,65,165,0.3);
-  border-bottom: 1px solid rgba(58,65,165,0.3);
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
 }
 .speaker.future.current.alex .title{
-  color: #3a41a5;
+  color: #96F550;
 }
 
 .current.alex {
-  border-bottom: 1px solid #3a41a5;
+  border-bottom: 1px solid #96F550;
 }
 a.alex {
   text-decoration: none;
-  color: #3a41a5;
+  color: #96F550;
 }
 a.alex:hover {
-  border-bottom: 1px solid #3a41a5;
+  border-bottom: 1px solid #96F550;
 }
 .load.alex {
-  background-color: #3a41a5;
+  background-color: #96F550;
 }
 .home.alex {
   background: url('regina.jpg') repeat center center;
-  background-color: #3a41a5;
+  background-color: #96F550;
   background-blend-mode: multiply;
 }
