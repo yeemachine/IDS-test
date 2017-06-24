@@ -107,7 +107,7 @@ $('.logo').css('height', window.innerHeight+'px');
 
      });
    }
-   $('.home, .artistName, .credit, .load, .ids').addClass(currentSpeaker);
+   $('.home, .artistName, .credit, .load, .ids, .about').addClass(currentSpeaker);
    $('.info').html(container);
 
    $('.speaker').addClass(currentSpeaker);

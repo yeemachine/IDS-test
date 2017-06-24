@@ -36,7 +36,7 @@ window.onload = function() {
 
   //  $('.home').css({'margin-left':'-100vw','transition':'.25s'});
   //  $('.about').css({'margin-left':'0','transition':'.25s'});
-   $('.home , .about').toggleClass('showAbout')
+   $('.home , .about, .ids').toggleClass('showAbout')
    });
 
 };
