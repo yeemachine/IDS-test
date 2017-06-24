@@ -33,6 +33,10 @@ window.onload = function() {
      scrollTop: 0
    }, 'fast');
    $('.selected').removeClass("selected");
+
+  //  $('.home').css({'margin-left':'-100vw','transition':'.25s'});
+  //  $('.about').css({'margin-left':'0','transition':'.25s'});
+   $('.home , .about').toggleClass('showAbout')
    });
 
 };
