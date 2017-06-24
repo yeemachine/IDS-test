@@ -46,20 +46,21 @@ html {
 }
 
 
-.stroke.hover{
+.stroke.hover, .stroke2.hover, .stroke3.hover{
   animation: dash2 .5s cubic-bezier(0.5, 0.5, 0.5, 0.5) infinite;
   animation-fill-mode: forwards;
+
 
 }
 
-.stroke2.hover{
-  animation: dash2 .5s cubic-bezier(0.5, 0.5, 0.5, 0.5) infinite;
-  animation-fill-mode: forwards;
+.stroke, .stroke2, .stroke3{
+  transition: .25s;
 }
-
-.stroke3.hover{
-  animation: dash2 .5s cubic-bezier(0.5, 0.5, 0.5, 0.5) infinite;
-  animation-fill-mode: forwards;
+.stroke.showAbout, .stroke2.showAbout, .stroke3.showAbout{
+  stroke: #000000;
+}
+.stroke.showAbout.invert, .stroke2.showAbout.invert, .stroke3.showAbout.invert{
+  stroke: #ffffff;
 }
 
 @keyframes dash {

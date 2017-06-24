@@ -16,6 +16,7 @@ window.onload = function() {
       $(stroke1).addClass('hover');
       $(stroke2).addClass('hover');
       $(stroke3).addClass('hover');
+
     // console.log('mouseover');
    });
 
@@ -36,7 +37,25 @@ window.onload = function() {
 
   //  $('.home').css({'margin-left':'-100vw','transition':'.25s'});
   //  $('.about').css({'margin-left':'0','transition':'.25s'});
-   $('.home , .about, .ids').toggleClass('showAbout')
+   $('.home , .about, .ids').toggleClass('showAbout');
+   $(stroke1).toggleClass('showAbout');
+   $(stroke2).toggleClass('showAbout');
+   $(stroke3).toggleClass('showAbout');
+
+
    });
+
+   $(window).scroll(function() {
+    if ($(this).scrollTop() > 50 ) {
+      $(stroke1).addClass('invert');
+      $(stroke2).addClass('invert');
+      $(stroke3).addClass('invert');
+    }else{
+      $(stroke1).removeClass('invert');
+      $(stroke2).removeClass('invert');
+      $(stroke3).removeClass('invert');
+    }
+  });
+
 
 };

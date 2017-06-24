@@ -70,9 +70,9 @@ $('.logo').css('height', window.innerHeight+'px');
         currentBack = json.speakers[speakerID].background;
 
 
-        var displayDate = new Date();
+        var displayDate = new Date(fullDate);
+
         var options = { year: 'numeric', month: 'long', day: 'numeric' };
-        displayDate.setDate(maxDate.getDate() - 1)
 
 
         $('.artistName').html(speakerName);
