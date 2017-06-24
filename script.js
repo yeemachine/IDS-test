@@ -69,20 +69,20 @@ $('.logo').css('height', window.innerHeight+'px');
         currentSpeaker = json.speakers[speakerID].css;
         currentBack = json.speakers[speakerID].background;
 
-        var now = 0;
-
-       var array = [currentBack, "rose.jpg" ];
-       console.log(array);
-
-       setInterval(function(){
-         now = (now+1) % array.length ;
-
-          if (array[now]===currentBack){
-            $('.home').css({'background-image': 'url("'+array[now]+'")','background-repeat':'','background-size':''});
-          }else{
-            $('.home').css({'background-image': 'url("'+array[now]+'")','background-repeat':'','background-size':'',  'transition':  '3s linear'});
-          }
-       }, 10000);
+      //   var now = 0;
+       //
+      //  var array = [currentBack, "rose.jpg" ];
+      //  console.log(array);
+       //
+      //  setInterval(function(){
+      //    now = (now+1) % array.length ;
+       //
+      //     if (array[now]===currentBack){
+      //       $('.home').css({'background-image': 'url("'+array[now]+'")','background-repeat':'','background-size':''});
+      //     }else{
+      //       $('.home').css({'background-image': 'url("'+array[now]+'")','background-repeat':'','background-size':'',  'transition':  '3s linear'});
+      //     }
+      //  }, 10000);
 
 
 

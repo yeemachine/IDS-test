@@ -221,8 +221,8 @@ hr {
 }
 .title{
   width: 92.5vw;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 7vh;
+  padding-bottom: 3vh;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -247,7 +247,7 @@ hr {
 .speaker .copy{
   opacity: 0;
   margin-left: 17.5vw;
-  margin-top: 20vh;
+  margin-top: 22vh;
   color:white;
   transition: .25s;
   pointer-events: none;
@@ -422,7 +422,7 @@ display: flex;
   }
   .speaker .copy{
     margin-left: 10vw;
-    margin-top: 20vh;
+    margin-top: 22vh;
   }
   .speaker .description{
     width: 80vw;

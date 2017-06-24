@@ -11,7 +11,7 @@
 }
 .alex .website {
   color: #96F550;
-  border-bottom: 1px solid rgba(150,245,80,0.5)
+  border-bottom: 1px solid rgba(150,245,80,0.3)
 }
 .alex .website:hover{
 border-bottom: 1px solid rgba(150,245,80,1)
