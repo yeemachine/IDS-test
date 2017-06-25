@@ -279,6 +279,26 @@ hr {
   border-bottom: 1px solid rgba(0, 0, 0, 1);
   cursor: pointer;
 }
+.strokeText{
+  position: fixed;
+  z-index: 9;
+  bottom: .5vw;
+  right: 2vw;
+  font-family: 'Halyard Text Bold';
+  pointer-events: none;
+  opacity: 0;
+  width: 100px;
+  text-align: center;
+}
+.strokeText.hover{
+  opacity: 1;
+}
+.strokeText.showAbout{
+  color:#000000
+}
+.strokeText.showAbout.invert{
+  color:#ffffff
+}
 .artistName {
   font-family: 'Halyard Display Black', Helvetica, Arial, sans-serif;
   font-weight: 900;
