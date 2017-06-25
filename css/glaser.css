@@ -50,7 +50,7 @@ a.glaser:hover {
   background-color: rgba(159, 252, 223, 1);
 }
 .home.glaser {
-  background: url('/assets/img/regina.jpg') repeat center center;
+  background: url('../assets/img/regina.jpg') repeat center center;
   background-color: rgba(159, 252, 223, 1);
   background-blend-mode: multiply;
 }
