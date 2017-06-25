@@ -39,7 +39,7 @@ window.onload = function() {
           $('.selected').removeClass("selected");
         }else{
           $('html, body').animate({
-              scrollTop: $('.info').offset().top
+              scrollTop: $('.speaker.current').offset().top
             }, 'fast');
         }
    });
