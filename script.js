@@ -103,7 +103,7 @@ $('.logo').css('height', window.innerHeight+'px');
 
         $('html, body').stop().animate({
         scrollTop: $(this).offset().top  - 20
-      }, 'fast');
+      }, 'fast','swing');
 
      });
    }

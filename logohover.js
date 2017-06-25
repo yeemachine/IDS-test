@@ -35,12 +35,12 @@ window.onload = function() {
     //  console.log('hi');
           $('html, body').animate({
               scrollTop: 0
-            }, 'fast');
+            }, 'fast','swing');
           $('.selected').removeClass("selected");
         }else{
           $('html, body').animate({
-              scrollTop: $('.speaker.current').offset().top
-            }, 'fast');
+              scrollTop: $('.speaker.current').offset().top - 20
+            }, 'fast' ,'swing');
         }
    });
 
