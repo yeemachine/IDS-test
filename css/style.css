@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Halyard Display Regular';
-    src: url('./webfonts/halyarddis-regular-webfont.woff2') format('woff2'),
-         url('./webfonts/halyarddis-regular-webfont.woff') format('woff');
+    src: url('../webfonts/halyarddis-regular-webfont.woff2') format('woff2'),
+         url('../webfonts/halyarddis-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Halyard Display Black';
-    src: url('./webfonts/halyarddisblack-webfont.woff2') format('woff2'),
-         url('./webfonts/halyarddisblack-webfont.woff') format('woff');
+    src: url('../webfonts/halyarddisblack-webfont.woff2') format('woff2'),
+         url('../webfonts/halyarddisblack-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Halyard Display Extra Light';
-    src: url('./webfonts/halyarddisexlt-webfont.woff2') format('woff2'),
-         url('./webfonts/halyarddisexlt-webfont.woff') format('woff');
+    src: url('../webfonts/halyarddisexlt-webfont.woff2') format('woff2'),
+         url('../webfonts/halyarddisexlt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,7 +28,7 @@
 
 @font-face {
     font-family: 'Halyard Text Regular';
-    src: url('./webfonts/HalyardText-Reg.woff') format('woff');
+    src: url('../webfonts/HalyardText-Reg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -37,7 +37,7 @@
 @font-face {
     font-family: 'Halyard Text Bold';
     src:
-         url('./webfonts/HalyardText-Bd.woff') format('woff');
+         url('../webfonts/HalyardText-Bd.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -47,7 +47,7 @@
 @font-face {
     font-family: 'Halyard Text Italic';
     src:
-         url('./webfonts/HalyardText-It.woff') format('woff');
+         url('../webfonts/HalyardText-It.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
