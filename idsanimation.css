@@ -99,7 +99,9 @@ stroke-dashoffset: 0;
 
 }
 
-@media screen and (max-width: 770px) {
-
+@media screen and (max-width: 820px) {
+  /*.stroke.showAbout.invert, .stroke2.showAbout.invert, .stroke3.showAbout.invert{
+    stroke: #000000;
+  }*/
 
 }

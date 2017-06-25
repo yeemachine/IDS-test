@@ -12,13 +12,9 @@
 .about.alex{
   background-color: #96F550
 }
-.ids.alex.showAbout{
-  color:black;
-}
-.ids.alex.showAbout hr{
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
 
-}
+
+
 .alex .website {
   color: #96F550;
   border-bottom: 1px solid rgba(150,245,80,0.3)
