@@ -12,7 +12,9 @@
 .about.vignelli{
   background-color: #96F550
 }
-
+.vignelli .currentDate{
+  color: #96F550
+}
 
 
 .vignelli .website {

@@ -12,7 +12,9 @@
 .about.sagmeister{
   background-color: #96F550
 }
-
+.sagmeister .currentDate{
+  color: #96F550
+}
 
 
 .sagmeister .website {

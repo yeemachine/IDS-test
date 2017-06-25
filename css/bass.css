@@ -12,7 +12,9 @@
 .about.bass{
   background-color: #96F550
 }
-
+.bass .currentDate{
+  color: #96F550
+}
 
 
 .bass .website {

@@ -12,7 +12,9 @@
 .about.lubalin{
   background-color: #96F550
 }
-
+.lubalin .currentDate{
+  color: #96F550
+}
 
 
 .lubalin .website {

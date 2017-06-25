@@ -12,7 +12,9 @@
 .about.scher{
   background-color: #96F550
 }
-
+.scher .currentDate{
+  color: #96F550
+}
 
 
 .scher .website {

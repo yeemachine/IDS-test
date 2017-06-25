@@ -12,7 +12,9 @@
 .about.rand{
   background-color: #96F550
 }
-
+.rand .currentDate{
+  color: #96F550
+}
 
 
 .rand .website {

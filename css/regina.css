@@ -12,7 +12,9 @@
 .about.regina{
   background-color: #96F550
 }
-
+.regina .currentDate{
+  color: #96F550
+}
 
 
 .regina .website {

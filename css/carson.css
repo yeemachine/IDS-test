@@ -12,7 +12,9 @@
 .about.carson{
   background-color: #96F550
 }
-
+.carson .currentDate{
+  color: #96F550
+}
 
 
 .carson .website {

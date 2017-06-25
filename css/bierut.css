@@ -12,7 +12,9 @@
 .about.bierut{
   background-color: #96F550
 }
-
+.bierut .currentDate{
+  color: #96F550
+}
 
 
 .bierut .website {
