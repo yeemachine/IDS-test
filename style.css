@@ -254,7 +254,7 @@ hr {
   width: 100px;
   text-align: center;
   right:2vw;
-  top:calc(100vh - 150px - 2vw);
+  bottom:calc(90px + 2vw);
   opacity: 0;
   z-index: 5;
   animation: appear 3s forwards;
