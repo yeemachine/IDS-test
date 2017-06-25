@@ -1,0 +1,114 @@
+{
+    "speakers": {
+		    "speaker1": {
+            "month":"Jun",
+            "date":"12",
+            "fullDate":"2017/6/12",
+            "css":"lubalin",
+            "background":"regina.jpg",
+            "name":"Herb Lubalin",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg"
+        },
+        "speaker2": {
+            "month":"",
+            "date":"16",
+            "fullDate":"2017/06/16",
+            "css":"regina",
+            "background":"regina.jpg",
+            "name":"Regina José Galindo",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg",
+            "credits":"Regina José Galindo - <i>Nadie Atraviesa la Región</i> (2015)"
+        },
+        "speaker3": {
+            "month":"",
+            "date":"23",
+            "fullDate":"2017/06/23",
+            "css":"rand",
+            "background":"regina.jpg",
+            "name":"Paul Rand",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://aelx.co/portfolio/photos/mypoorass.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        },
+        "speaker4": {
+            "month":"",
+            "date":"30",
+            "fullDate":"2017/06/30",
+            "css":"glaser2",
+            "background":"regina.jpg",
+            "name":"Milton Glaser",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website'>Website</a>  ",
+            "photo":"http://aelx.co/portfolio/photos/antenna.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        },
+        "speaker5": {
+            "month":"Jul",
+            "date":"07",
+            "fullDate":"2017/07/07",
+            "css":"sagmeister",
+            "background":"regina.jpg",
+            "name":"Stefan Sagmeister",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://aelx.co/portfolio/photos/superbbird.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        },
+        "speaker6": {
+            "month":"",
+            "date":"14",
+            "fullDate":"2017/07/14",
+            "css":"bass",
+            "background":"regina.jpg",
+            "name":"Saul Bass",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        },
+        "speaker7": {
+            "month":"",
+            "date":"21",
+            "fullDate":"2017/07/21",
+            "css":"scher",
+            "background":"regina.jpg",
+            "name":"Paula Scher",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        },
+        "speaker8": {
+            "month":"",
+            "date":"28",
+            "fullDate":"2017/07/28",
+            "css":"carson",
+            "background":"regina.jpg",
+            "name":"David Carson",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        },
+        "speaker9": {
+            "month":"Aug",
+            "date":"04",
+            "fullDate":"2017/08/04",
+            "css":"bierut",
+            "background":"regina.jpg",
+            "name":"Michael Bierut",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        },
+        "speaker10": {
+            "month":"",
+            "date":"11",
+            "fullDate":"2017/08/11",
+            "css":"vignelli",
+            "background":"regina.jpg",
+            "name":"Massimo Vignelli",
+            "description":"Nana Adusei-Poku is Research Professor in Cultural Diversity at Hogeschool Rotterdam and Lecturer in Media Arts at the University of the Arts, Zurich. She was a scholarship doctoral student at Humboldt University, Berlin, working on the curatorial concept post-black in relation to contemporary Black artists, following degrees in African studies and gender studies at Humboldt University, and in media and communications at Goldsmiths College, University of London. She has been a visiting scholar at the University of Ghana, Legon; the London School of Economics; and Columbia University, New York. She published ‘The Challenge to Conceptualise the Multiplicity of Multiplicities–Post-Black Art and Its Intricacies’ in ‘Post-racial Imaginaries, a special issue of Dark Matter’, among other articles, last year. Her research interests are in cultural studies, visual culture, Black diaspora art history, postcolonial and critical race theory.<br><br><a href='https://yeemachine.com/' class='website' target='blank'>Website</a>",
+            "photo":"http://arcthemagazine.com/arc/wp-content/uploads/2015/07/Lecture_byAnneSunderman-94-of-130.jpg",
+            "credits":"Regina José Galindo - Nadie Atraviesa la Región (2015)"
+        }
+
+      }
+}

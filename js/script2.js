@@ -26,7 +26,7 @@ $( document ).ready(function() {
 
 $('.logo').css('height', window.innerHeight+'px');
 
- $.getJSON("database.json", function(json) {
+ $.getJSON("database2.json", function(json) {
    var container = $("<div class='eventcontainer'></div>");
   //  var myList = JSON.parse(json.speakers);
    var jsonLength = Object.keys(json.speakers).length

@@ -1,0 +1,56 @@
+/*::selection {
+  background: rgba(220, 20, 60, 1);
+}
+
+::-moz-selection {
+  background: rgba(220, 20, 60, 1);
+}*/
+
+.artistName.glaser2  {
+  transform: rotate(-20deg);
+}
+.about.glaser2{
+  background-color: rgba(220, 20, 60, 1)
+}
+
+.glaser2 .currentDate{
+  color: rgba(220, 20, 60, 1)
+}
+
+.glaser2 .website {
+  color: rgba(220, 20, 60, 1);
+  border-bottom: 1px solid rgba(220, 20, 60, 0.3)
+}
+.glaser2 .website:hover{
+border-bottom: 1px solid rgba(220, 20, 60, 1)
+}
+.speaker:hover.glaser2 {
+  color: rgba(220, 20, 60, 1);
+  border-bottom: 1px solid rgba(220, 20, 60, 1);
+}
+.speaker.past:hover.glaser2 {
+  color: rgba(220, 20, 60, 0.3);
+  border-bottom: 1px solid rgba(220, 20, 60, 0.3);
+}
+.speaker.future.current.glaser2 .title{
+  color: rgba(220, 20, 60, 1);
+}
+
+.current.glaser2 {
+  border-bottom: 1px solid rgba(220, 20, 60, 1);
+}
+a.glaser2 {
+  text-decoration: none;
+  color: rgba(220, 20, 60, 1);
+}
+a.glaser2:hover {
+  border-bottom: 1px solid rgba(220, 20, 60, 1);
+}
+.load.glaser2 {
+  background-color: rgba(220, 20, 60, 1);
+}
+.home.glaser2 {
+  background: url('../assets/img/regina.jpg') repeat center center;
+  background-color: rgba(220, 20, 60, 1);
+  background-blend-mode: lighten;
+}
