@@ -1,0 +1,54 @@
+/*::selection {
+  background: #96F550;
+}
+
+::-moz-selection {
+  background: #96F550;
+}*/
+
+.artistName.regina  {
+  transform: rotate(-20deg);
+}
+.about.regina{
+  background-color: #96F550
+}
+
+
+
+.regina .website {
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.3)
+}
+.regina .website:hover{
+border-bottom: 1px solid rgba(150,245,80,1)
+}
+.speaker:hover.regina {
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
+}
+.speaker.past:hover.regina {
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
+}
+.speaker.future.current.regina .title{
+  color: #96F550;
+}
+
+.current.regina {
+  border-bottom: 1px solid #96F550;
+}
+a.regina {
+  text-decoration: none;
+  color: #96F550;
+}
+a.regina:hover {
+  border-bottom: 1px solid #96F550;
+}
+.load.regina {
+  background-color: #96F550;
+}
+.home.regina {
+  background: url('/assets/img/regina.jpg') repeat center center;
+  background-color: #96F550;
+  background-blend-mode: multiply;
+}

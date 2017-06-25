@@ -1,0 +1,54 @@
+/*::selection {
+  background: #96F550;
+}
+
+::-moz-selection {
+  background: #96F550;
+}*/
+
+.artistName.scher  {
+  transform: rotate(-20deg);
+}
+.about.scher{
+  background-color: #96F550
+}
+
+
+
+.scher .website {
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.3)
+}
+.scher .website:hover{
+border-bottom: 1px solid rgba(150,245,80,1)
+}
+.speaker:hover.scher {
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
+}
+.speaker.past:hover.scher {
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
+}
+.speaker.future.current.scher .title{
+  color: #96F550;
+}
+
+.current.scher {
+  border-bottom: 1px solid #96F550;
+}
+a.scher {
+  text-decoration: none;
+  color: #96F550;
+}
+a.scher:hover {
+  border-bottom: 1px solid #96F550;
+}
+.load.scher {
+  background-color: #96F550;
+}
+.home.scher {
+  background: url('/assets/img/regina.jpg') repeat center center;
+  background-color: #96F550;
+  background-blend-mode: multiply;
+}

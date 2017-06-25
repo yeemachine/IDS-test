@@ -1,0 +1,54 @@
+/*::selection {
+  background: #96F550;
+}
+
+::-moz-selection {
+  background: #96F550;
+}*/
+
+.artistName.bierut  {
+  transform: rotate(-20deg);
+}
+.about.bierut{
+  background-color: #96F550
+}
+
+
+
+.bierut .website {
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.3)
+}
+.bierut .website:hover{
+border-bottom: 1px solid rgba(150,245,80,1)
+}
+.speaker:hover.bierut {
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
+}
+.speaker.past:hover.bierut {
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
+}
+.speaker.future.current.bierut .title{
+  color: #96F550;
+}
+
+.current.bierut {
+  border-bottom: 1px solid #96F550;
+}
+a.bierut {
+  text-decoration: none;
+  color: #96F550;
+}
+a.bierut:hover {
+  border-bottom: 1px solid #96F550;
+}
+.load.bierut {
+  background-color: #96F550;
+}
+.home.bierut {
+  background: url('/assets/img/regina.jpg') repeat center center;
+  background-color: #96F550;
+  background-blend-mode: multiply;
+}

@@ -1,0 +1,54 @@
+/*::selection {
+  background: #96F550;
+}
+
+::-moz-selection {
+  background: #96F550;
+}*/
+
+.artistName.carson  {
+  transform: rotate(-20deg);
+}
+.about.carson{
+  background-color: #96F550
+}
+
+
+
+.carson .website {
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.3)
+}
+.carson .website:hover{
+border-bottom: 1px solid rgba(150,245,80,1)
+}
+.speaker:hover.carson {
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
+}
+.speaker.past:hover.carson {
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
+}
+.speaker.future.current.carson .title{
+  color: #96F550;
+}
+
+.current.carson {
+  border-bottom: 1px solid #96F550;
+}
+a.carson {
+  text-decoration: none;
+  color: #96F550;
+}
+a.carson:hover {
+  border-bottom: 1px solid #96F550;
+}
+.load.carson {
+  background-color: #96F550;
+}
+.home.carson {
+  background: url('/assets/img/regina.jpg') repeat center center;
+  background-color: #96F550;
+  background-blend-mode: multiply;
+}

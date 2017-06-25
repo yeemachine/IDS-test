@@ -1,0 +1,54 @@
+/*::selection {
+  background: #96F550;
+}
+
+::-moz-selection {
+  background: #96F550;
+}*/
+
+.artistName.lubalin  {
+  transform: rotate(-30deg);
+}
+.about.lubalin{
+  background-color: #96F550
+}
+
+
+
+.lubalin .website {
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.3)
+}
+.lubalin .website:hover{
+border-bottom: 1px solid rgba(150,245,80,1)
+}
+.speaker:hover.lubalin {
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
+}
+.speaker.past:hover.lubalin {
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
+}
+.speaker.future.current.lubalin .title{
+  color: #96F550;
+}
+
+.current.lubalin {
+  border-bottom: 1px solid #96F550;
+}
+a.lubalin {
+  text-decoration: none;
+  color: #96F550;
+}
+a.lubalin:hover {
+  border-bottom: 1px solid #96F550;
+}
+.load.lubalin {
+  background-color: #96F550;
+}
+.home.lubalin {
+  background: url('/assets/img/regina.jpg') repeat center center;
+  background-color: #96F550;
+  background-blend-mode: multiply;
+}

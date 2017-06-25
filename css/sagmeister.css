@@ -1,0 +1,54 @@
+/*::selection {
+  background: #96F550;
+}
+
+::-moz-selection {
+  background: #96F550;
+}*/
+
+.artistName.sagmeister  {
+  transform: rotate(-20deg);
+}
+.about.sagmeister{
+  background-color: #96F550
+}
+
+
+
+.sagmeister .website {
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.3)
+}
+.sagmeister .website:hover{
+border-bottom: 1px solid rgba(150,245,80,1)
+}
+.speaker:hover.sagmeister {
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
+}
+.speaker.past:hover.sagmeister {
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
+}
+.speaker.future.current.sagmeister .title{
+  color: #96F550;
+}
+
+.current.sagmeister {
+  border-bottom: 1px solid #96F550;
+}
+a.sagmeister {
+  text-decoration: none;
+  color: #96F550;
+}
+a.sagmeister:hover {
+  border-bottom: 1px solid #96F550;
+}
+.load.sagmeister {
+  background-color: #96F550;
+}
+.home.sagmeister {
+  background: url('/assets/img/regina.jpg') repeat center center;
+  background-color: #96F550;
+  background-blend-mode: multiply;
+}

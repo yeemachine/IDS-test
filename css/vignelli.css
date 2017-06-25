@@ -1,0 +1,54 @@
+/*::selection {
+  background: #96F550;
+}
+
+::-moz-selection {
+  background: #96F550;
+}*/
+
+.artistName.vignelli  {
+  transform: rotate(0deg);
+}
+.about.vignelli{
+  background-color: #96F550
+}
+
+
+
+.vignelli .website {
+  color: #96F550;
+  border-bottom: 1px solid rgba(150,245,80,0.3)
+}
+.vignelli .website:hover{
+border-bottom: 1px solid rgba(150,245,80,1)
+}
+.speaker:hover.vignelli {
+  color: #96F550;
+  border-bottom: 1px solid #96F550;
+}
+.speaker.past:hover.vignelli {
+  color: rgba(150,245,80,0.3);
+  border-bottom: 1px solid rgba(150,245,80,0.3);
+}
+.speaker.future.current.vignelli .title{
+  color: #96F550;
+}
+
+.current.vignelli {
+  border-bottom: 1px solid #96F550;
+}
+a.vignelli {
+  text-decoration: none;
+  color: #96F550;
+}
+a.vignelli:hover {
+  border-bottom: 1px solid #96F550;
+}
+.load.vignelli {
+  background-color: #96F550;
+}
+.home.vignelli {
+  background: url('/assets/img/regina.jpg') repeat center center;
+  background-color: #96F550;
+  background-blend-mode: multiply;
+}
