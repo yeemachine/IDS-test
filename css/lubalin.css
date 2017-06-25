@@ -50,7 +50,7 @@ a.lubalin:hover {
   background-color: #96F550;
 }
 .home.lubalin {
-  background: url('/assets/img/regina.jpg') repeat center center;
+  background: url('../assets/img/regina.jpg') repeat center center;
   background-color: #96F550;
   background-blend-mode: multiply;
 }

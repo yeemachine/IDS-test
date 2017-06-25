@@ -50,7 +50,7 @@ a.regina:hover {
   background-color: #96F550;
 }
 .home.regina {
-  background: url('./assets/img/regina.jpg') repeat center center;
+  background: url('../assets/img/regina.jpg') repeat center center;
   background-color: #96F550;
   background-blend-mode: multiply;
 }

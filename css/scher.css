@@ -50,7 +50,7 @@ a.scher:hover {
   background-color: #96F550;
 }
 .home.scher {
-  background: url('/assets/img/regina.jpg') repeat center center;
+  background: url('../assets/img/regina.jpg') repeat center center;
   background-color: #96F550;
   background-blend-mode: multiply;
 }

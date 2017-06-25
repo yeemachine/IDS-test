@@ -50,7 +50,7 @@ a.bierut:hover {
   background-color: #96F550;
 }
 .home.bierut {
-  background: url('/assets/img/regina.jpg') repeat center center;
+  background: url('../assets/img/regina.jpg') repeat center center;
   background-color: #96F550;
   background-blend-mode: multiply;
 }
