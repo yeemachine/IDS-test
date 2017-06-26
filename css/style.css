@@ -167,35 +167,48 @@ a {
 
 }
 .about{
-  width: 100%;
+  position: absolute;
+  width: 100vw;
   height: 100vh;
   background-color: black;
   margin-left:100vw;
   transition: .25s;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
+
 .blurbContainer{
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  margin-left: 3vw;
+  margin-top: calc(50px + 3vw);
+  flex-direction: row;
 }
 .blurb{
-  width: 40vw;
+  min-width: 40vw;
+  max-width: 45vw;
+  max-height: 80vh;
   color: black;
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 .rose{
-  margin-left: 10vw;
-  width: 30vw;
+  position: absolute;
+  right: calc(3vw + 13px);
+  margin-top: 2vw;
+  width: 40vw;
+  max-height: 50vh;
 }
 .home.showAbout{
   margin-left:-100vw
 }
 .about.showAbout{
-  margin-left: 0
+  margin-left: 0vw
 }
+
 
 
 
@@ -217,7 +230,6 @@ transition: .25s
 }
 .ids.showAbout h1{
   color:black;
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 
@@ -228,17 +240,16 @@ h1 {
   line-height: normal;
   margin: 0;
   display: inline-block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .schedule{
   text-align: left;
-position: absolute;
-display: flex;
-flex-direction: column;
-font-size: 17px;
-left:3vw;
-top:calc(3vw + 60px);
-line-height: 1.2
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  left:3vw;
+  top:calc(5vw + 50px);
+  line-height: 1.2
 }
 .scheduleDate{
   margin-right: 15px;
@@ -252,8 +263,8 @@ hr {
   font-family: 'Halyard Text Bold';
   position: absolute;
   width: 100px;
-  text-align: center;
-  right:2vw;
+  text-align: right;
+  right:calc(2vw + 13px);
   bottom:calc(90px + 2vw);
   opacity: 0;
   z-index: 5;
@@ -278,6 +289,24 @@ hr {
 .aboutButton.showAbout p:hover{
   border-bottom: 1px solid rgba(0, 0, 0, 1);
   cursor: pointer;
+}
+.idsBlurb{
+  overflow-y: hidden;
+  padding-bottom: 3vw;
+  padding-top: 2vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.professor{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.professor:hover{
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.profTitle{
+  display: inline-block;
+  font-family: 'Halyard Text Bold';
+  margin-top: 30px;
 }
 .strokeText{
   position: fixed;
@@ -336,8 +365,8 @@ hr {
   border-bottom: 1px solid white;
   transition: 0.1s;
   overflow: hidden;
-
 }
+
 .title{
   width: 92.5vw;
   padding-top: 7vh;
