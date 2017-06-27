@@ -104,7 +104,7 @@ $('.logo').css('height', window.innerHeight+'px');
 
         containerSelect.toggleClass("selected");
 
-        $('html, body').stop().animate({
+        $('html,body').stop().animate({
         scrollTop: $(this).offset().top  - 20
       }, 'fast','swing');
 
