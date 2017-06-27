@@ -52,7 +52,9 @@
     font-style: normal;
 
 }
-
+*{
+  -webkit-overflow-scrolling: touch;
+}
 html, body {
   /*display: none;*/
   background-color: black;
