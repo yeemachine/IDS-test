@@ -159,7 +159,7 @@ a {
   opacity: 0;
   transition: .25s;
   animation: appear 3s forwards;
-  z-index: 3
+  z-index: 3;
 }
 .homeContainer{
   width: 100%;
@@ -393,6 +393,7 @@ hr {
 
 .info {
   padding-top: 5vw;
+  z-index: 2;
 }
 
 .speaker {
