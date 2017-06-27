@@ -52,9 +52,7 @@
     font-style: normal;
 
 }
-*{
-  -webkit-overflow-scrolling: touch;
-}
+
 .wrapper{
   overflow-x: hidden;
   top:0;
@@ -75,6 +73,7 @@ html, body {
   font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 17px;
+  -webkit-overflow-scrolling: touch;
 
 
 }
