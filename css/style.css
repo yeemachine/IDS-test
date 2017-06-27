@@ -157,6 +157,7 @@ a {
   opacity: 0;
   transition: .25s;
   animation: appear 3s forwards;
+  z-index: 3
 }
 .homeContainer{
   width: 100%;
@@ -176,6 +177,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  z-index: 2;
 }
 
 .blurbContainer{
@@ -230,6 +232,7 @@ transition: .25s
 }
 .ids.showAbout{
   width: 45vw;
+  padding-bottom: 2vw;
 }
 .ids.showAbout:hover{
   cursor: pointer;
@@ -303,16 +306,14 @@ hr {
   border-bottom: 1px solid rgba(0, 0, 0, .3);
   transition: .25s;
   color: rgba(0,0,0,0);
-  margin-top: 2vw;
+  margin-top: 3vh;
 }
 .idsBlurb.hovered{
   border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 .idsBlurb.selected2{
-  margin-top: 0;
   color: rgba(0,0,0,1);
-  padding-bottom: 3vw;
-  padding-top: 2vw;
+  padding-bottom: 5vh;
   max-height: none;
 }
 .professor{
@@ -341,6 +342,11 @@ hr {
 }
 .profDesc{
   padding-bottom: 5vh;
+  color: rgba(0,0,0,0);
+  transition: .25s
+}
+.selected2 .profDesc{
+  color: rgba(0,0,0,1)
 }
 .strokeText{
   position: fixed;
@@ -579,11 +585,34 @@ display: flex;
   #IDS{
     pointer-events: none;
     position: absolute;
+    transition: .25s;
+    left: calc(90vw - 100px + 13px);
+    bottom: 10vw;
   }
+
   #IDSload {
     width: 70vw;
     height: auto;
     margin-bottom: 5vh;
+  }
+  .aboutButton{
+    bottom: 2vw;
+    left: calc(90vw - 100px);
+  }
+  .schedule{
+    left: 10vw;
+  }
+  .ids{
+    left: 10vw;
+  }
+  .ids.showAbout{
+    width: 80vw;
+  }
+  .professor{
+    width: 80vw
+  }
+  .idsBlurb{
+    width: 80vw;
   }
   .credit{
     display: none;
@@ -592,6 +621,7 @@ display: flex;
     width: 80vw
   }
   .blurbContainer{
+    margin-left: 10vw;
     flex-direction: column;
   }
   .rose{

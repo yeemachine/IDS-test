@@ -49,7 +49,7 @@ window.onload = function() {
 
    $('.aboutButton').click(function(){
      $(load).removeClass('load');
-     $('.home , .about, .ids, .aboutButton, .strokeText').toggleClass('showAbout');
+     $('.home , .about, .ids, .aboutButton, .strokeText, .stroke').toggleClass('showAbout');
      $(stroke1).toggleClass('showAbout');
      $(stroke2).toggleClass('showAbout');
      $(stroke3).toggleClass('showAbout');
