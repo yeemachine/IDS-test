@@ -197,7 +197,7 @@ a {
 }
 .rose{
   position: absolute;
-  right: calc(3vw + 13px);
+  right: calc(2vw + 13px);
   margin-top: 2vw;
   width: 40vw;
   max-height: 50vh;
@@ -227,6 +227,12 @@ opacity: 0;
 animation: appear 3s forwards;
 line-height: 1.3;
 transition: .25s
+}
+.ids.showAbout{
+  width: 45vw;
+}
+.ids.showAbout:hover{
+  cursor: pointer;
 }
 .ids.showAbout h1{
   color:black;
@@ -292,21 +298,49 @@ hr {
 }
 .idsBlurb{
   overflow-y: hidden;
-  padding-bottom: 3vw;
-  padding-top: 2vw;
+  padding: 0;
+  max-height: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  transition: .25s;
+  color: rgba(0,0,0,0);
+  margin-top: 2vw;
+}
+.idsBlurb.hovered{
   border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
+.idsBlurb.selected2{
+  margin-top: 0;
+  color: rgba(0,0,0,1);
+  padding-bottom: 3vw;
+  padding-top: 2vw;
+  max-height: none;
+}
 .professor{
+    max-height: 10vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    overflow-y: hidden;
+    transition: .25s;
 }
 .professor:hover{
   border-bottom: 1px solid rgba(0, 0, 0, 1);
-  cursor: pointer;
+}
+.professor.selected2{
+  max-height: 100vh;
+  transition: .25s;
 }
 .profTitle{
   display: inline-block;
   font-family: 'Halyard Text Bold';
-  margin-top: 30px;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.profTitle:hover{
+  cursor: pointer;
+}
+.profDesc{
+  padding-bottom: 5vh;
 }
 .strokeText{
   position: fixed;

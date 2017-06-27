@@ -125,6 +125,23 @@ $('.logo').css('height', window.innerHeight+'px');
 
  });
 
+ $('.profTitle').click(function(){
+   var containerSelect = $(this).parent()
+   $(".selected2").removeClass("selected2");
+   containerSelect.addClass("selected2");
+ });
+ $('.ids').click(function(){
+   if ( $( this ).hasClass( "showAbout" ) ) {
+   $(".selected2").removeClass("selected2");
+   $('.idsBlurb').addClass("selected2");
+ }
+ });
+ $(".ids, .idsBlurb").mouseover(function() {
+   $('.ids, .idsBlurb').addClass("hovered");
+ });
+ $(".ids, .idsBlurb").mouseout(function() {
+   $('.ids, .idsBlurb').removeClass("hovered");
+ });
 
 
 

@@ -54,12 +54,12 @@ window.onload = function() {
      $(stroke2).toggleClass('showAbout');
      $(stroke3).toggleClass('showAbout');
 
-     if ($('.aboutButton').attr('status') === 'about'){
-       $('.aboutButton').attr('status','');
-       $('.aboutButton p').html('About IDS');
+     if ( $( this ).hasClass( "showAbout" ) ) {
+       $('.aboutButton p').html('Back');
      }else{
-        $('.aboutButton').attr('status','about');
-        $('.aboutButton p').html('Back');
+        $('.aboutButton p').html('About IDS');
+        $('.selected2').removeClass('selected2');
+        $('.idsBlurb').addClass('selected2');
      }
    });
 
