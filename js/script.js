@@ -133,19 +133,15 @@ $('.logo').css('height', window.innerHeight+'px');
    containerSelect.addClass("selected2");
 
    if (profID === "omar"){
-     $('.rose').fadeOut(125, function() {
            $('.rose').attr('src', 'http://curatorsintl.org/images/assets/Mdc_Seminar.jpeg');
            $('.rose, .about').removeClass('leslie ');
            $('.rose, .about').addClass('omar');
-       }).fadeIn(125);
 
    }
    if (profID === "leslie"){
-     $('.rose').fadeOut(125, function() {
            $('.rose').attr('src', 'http://www.sikkemajenkinsco.com/images/artwork/2833_08.jpg');
            $('.rose, .about').removeClass('omar');
            $('.rose, .about').addClass('leslie');
-       }).fadeIn(125);
 
    }
   });
@@ -153,10 +149,8 @@ $('.logo').css('height', window.innerHeight+'px');
    if ( $( this ).hasClass( "showAbout" ) ) {
    $(".selected2").removeClass("selected2");
    $('.idsBlurb').addClass("selected2");
-   $('.rose').fadeOut(125, function() {
          $('.rose, .about').attr('src', 'https://cooper.edu/sites/default/files/090905-Morgado-246.jpg');
          $('.rose, .about').removeClass('leslie omar');
-     }).fadeIn(125);
 
 
  }
