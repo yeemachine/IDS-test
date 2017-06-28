@@ -11,6 +11,67 @@
 }
 .about.glaser{
   background-color: rgba(159, 252, 223, 1);
+
+}
+.about.glaser:before{
+  content: ' ';
+   display: block;
+   position: absolute;
+   left: 50%;
+   top: 0;
+   width: 50%;
+   height: 100%;
+   opacity: 0.1;
+   background-image: url('https://cooper.edu/sites/default/files/090905-Morgado-246.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   -ms-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   filter: grayscale(1);
+   background-blend-mode: multiply;
+}
+.about.glaser.leslie:before{
+  content: ' ';
+   display: block;
+   position: absolute;
+   left: 50%;
+   top: 0;
+   width: 50%;
+   height: 100%;
+   opacity: 0.1;
+   background-image: url('http://www.sikkemajenkinsco.com/images/artwork/2833_08.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   -ms-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   filter: grayscale(1);
+   background-blend-mode: multiply;
+}
+.about.glaser.omar:before{
+  content: ' ';
+   display: block;
+   position: absolute;
+   left: 50%;
+   top: 0;
+   width: 50%;
+   height: 100%;
+   opacity: 0.1;
+   background-image: url('http://curatorsintl.org/images/assets/Mdc_Seminar.jpeg');
+   background-position: center;
+   background-repeat: no-repeat;
+   -ms-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   filter: grayscale(1);
+   background-blend-mode: multiply;
 }
 
 .glaser .currentDate{

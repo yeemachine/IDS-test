@@ -188,6 +188,8 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   z-index: 2;
+
+
 }
 
 .blurbContainer{
@@ -208,11 +210,22 @@ a {
   flex-direction: column;
 }
 .rose{
+  opacity: 1;
   position: absolute;
-  right: calc(2vw + 13px);
-  margin-top: 2vw;
-  width: 40vw;
-  max-height: 50vh;
+  /*right: calc(2vw + 13px);*/
+  left:50vw;
+  margin-top: 3vh;
+  /*margin-top: -1vh;*/
+  max-width: calc(45vw - 100px);
+  max-height: 57vh;
+  filter: grayscale(1);
+  mix-blend-mode: multiply;
+}
+.rose.leslie{
+  margin-top: calc(3vh + 10vh);
+}
+.rose.omar{
+  margin-top: calc(3vh + 20vh);
 }
 .home.showAbout{
   margin-left:-100vw
@@ -325,6 +338,7 @@ hr {
   color: rgba(0,0,0,1);
   padding-bottom: 5vh;
   max-height: none;
+  /*height: 55vh;*/
 }
 .professor{
     max-height: 10vh;
@@ -337,6 +351,7 @@ hr {
 }
 .professor.selected2{
   max-height: 100vh;
+  /*height: 70vh;*/
   transition: .25s;
 }
 .profTitle{
@@ -351,9 +366,9 @@ hr {
   cursor: pointer;
 }
 .profDesc{
-  padding-bottom: 5vh;
   color: rgba(0,0,0,0);
-  transition: .25s
+  transition: .25s;
+  margin-bottom: 5vh;
 }
 .selected2 .profDesc{
   color: rgba(0,0,0,1)
