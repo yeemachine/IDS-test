@@ -179,4 +179,18 @@ a.glaser:hover {
      filter: grayscale(1);
      background-blend-mode: multiply;
   }
+  .glaser .website:hover{
+  border-bottom: 1px solid rgba(255,255,255,1)
+  }
+  .speaker:hover.glaser {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
+  .speaker.past:hover.glaser {
+    color: rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  a.glaser:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+  }
 }
