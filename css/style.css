@@ -202,7 +202,7 @@ a {
 }
 .blurb{
   min-width: 40vw;
-  max-width: 45vw;
+  max-width: 44vw;
   max-height: 80vh;
   color: black;
   text-align: left;
@@ -280,7 +280,7 @@ h1 {
   flex-direction: column;
   font-size: 17px;
   left:3vw;
-  top:calc(5vw + 50px);
+  top:calc(3vw + 50px + 3vh);
   line-height: 1.2
 }
 .scheduleDate{
