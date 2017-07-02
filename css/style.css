@@ -355,15 +355,25 @@ h1 {
       height: 4.5vh;
       width: 1px
 }
+.info.unlocked .speaker:last-child:after{
+      background: rgba(255, 255, 255, 1);
+}
 .spring{
   display: block;
   pointer-events: none;
 
 }
+.spring.unlocked{
+  pointer-events: all;
+}
 .spring .speaker{
   border-left: 1px solid rgba(255,255,255,0.3);
   color:rgba(255,255,255,0.3);
   height: 20vh;
+}
+.spring.unlocked .speaker{
+  border-left: 1px solid rgba(255,255,255,1);
+  color:rgba(255,255,255,1);
 }
 .spring .speaker:last-child:after{
       content: "";

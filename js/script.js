@@ -30,6 +30,11 @@ $('.logo').css('height', window.innerHeight+'px');
    var container = $("<div class='eventcontainer'></div>");
   //  var myList = JSON.parse(json.speakers);
    var jsonLength = Object.keys(json.speakers).length
+   var lastDate = json.speakers['speaker'+ jsonLength].fullDate;
+   var finalDate = new Date(lastDate);
+   finalDate.setDate(finalDate.getDate() + 1);
+
+
    var i = 0;
 ///loop for initial load
    for (i; i < jsonLength; i++) {
@@ -112,7 +117,9 @@ $('.logo').css('height', window.innerHeight+'px');
      });
    }
    $('.home, .artistName, .credit, .load, .ids, .about, .aboutButton, .strokeText, .professor').addClass(currentSpeaker);
-
+   if (today > finalDate){
+     $('.spring, .info').addClass('unlocked');
+   }
   //  var mySVG2 = document.getElementById("IDS");
   //  var svgDoc2 = mySVG2.contentDocument;
   //  var container2 = svgDoc2.getElementsByClassName("svgcontainer");
