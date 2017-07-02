@@ -636,7 +636,7 @@ display: flex;
     position: absolute;
     transition: .25s;
     left: calc(90vw - 100px + 13px);
-    bottom: 10vw;
+    top: 80vh;
   }
 
   #IDSload {
@@ -676,9 +676,12 @@ display: flex;
     display: none;
   }
   .speaker{
-    width: 100%;
+    width: calc(100% - 2px);
     max-height: 20vh;
 
+  }
+  .marker{
+    left:3.5vw;
   }
   .speaker .month{
     font-size: 17px;
