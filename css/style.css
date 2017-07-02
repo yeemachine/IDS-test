@@ -203,6 +203,7 @@ a {
 .blurb{
   min-width: 40vw;
   max-width: calc(100vw - 9vw - 100px);
+  /*max-width: 85.7vw;*/
   max-height: 80vh;
   color: black;
   text-align: left;
@@ -219,6 +220,7 @@ a {
   /*max-width: calc(45vw - 100px);*/
   height: 40vh;
   margin-right: 5vw;
+  margin-left: 10vw;
   /*filter: grayscale(1);
   mix-blend-mode: multiply;*/
 }
