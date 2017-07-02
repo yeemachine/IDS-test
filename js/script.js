@@ -33,8 +33,9 @@ $('.logo').css('height', window.innerHeight+'px');
    var lastDate = json.speakers['speaker'+ jsonLength].fullDate;
    var finalDate = new Date(lastDate);
    finalDate.setDate(finalDate.getDate() + 1);
-
-
+   var firstDate = json.speakers['speaker1'].fullDate;
+   var startDate = new Date(firstDate);
+   console.log(startDate);
    var i = 0;
 ///loop for initial load
    for (i; i < jsonLength; i++) {
@@ -118,23 +119,23 @@ $('.logo').css('height', window.innerHeight+'px');
    }
    $(container).prepend('<div class="marker begin"><div class="pulsate"></div></div>');
    $('.home, .artistName, .credit, .load, .ids, .about, .aboutButton, .strokeText, .professor').addClass(currentSpeaker);
-   if (today > finalDate){
-     $('.spring, .info').addClass('unlocked');
-   }
-  //  var mySVG2 = document.getElementById("IDS");
-  //  var svgDoc2 = mySVG2.contentDocument;
-  //  var container2 = svgDoc2.getElementsByClassName("svgcontainer");
-  //  var stroke4 = svgDoc2.getElementsByClassName("stroke");
-  //  var stroke5 = svgDoc2.getElementsByClassName("stroke2");
-  //  var stroke6 = svgDoc2.getElementsByClassName("stroke3");
-  //  $(stroke4).addClass(currentSpeaker);
-  //  $(stroke5).addClass(currentSpeaker);
-  //  $(stroke6).addClass(currentSpeaker);
+
 
   $(stroke1).addClass(currentSpeaker);
    $('.info').html(container);
 
    $('.speaker').addClass(currentSpeaker);
+
+
+   if (today > finalDate){
+     $('.spring, .info').addClass('unlocked');
+   }
+   if (today < startDate){
+     $('.marker.begin').addClass('show');
+     console.log('too early' )
+   }
+
+
    console.log(currentSpeaker);
    if (eventChecker === false){
      console.log('no speaker')
