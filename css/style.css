@@ -278,7 +278,7 @@ h1 {
   flex-direction: column;
   font-size: 17px;
   left:3vw;
-  top:calc(3vw + 50px + 3vh);
+  top:calc(3vw + 50px + 2vh);
   line-height: 1.2
 }
 .scheduleDate{
