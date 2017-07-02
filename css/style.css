@@ -218,8 +218,8 @@ a {
   /*margin-top: -1vh;*/
   max-width: calc(45vw - 100px);
   max-height: 57vh;
-  filter: grayscale(1);
-  mix-blend-mode: multiply;
+  /*filter: grayscale(1);
+  mix-blend-mode: multiply;*/
 }
 .rose.leslie{
   margin-top: calc(3vh + 10vh);
@@ -297,7 +297,7 @@ hr {
   width: 100px;
   text-align: right;
   right:calc(2vw + 13px);
-  bottom:calc(90px + 2vw);
+  top:2vw;
   opacity: 0;
   z-index: 5;
   animation: appear 3s forwards;
@@ -405,10 +405,12 @@ hr {
 
 .credit {
   position: absolute;
-  right: 30px;
-  top: 0;
+  left: 0;
+  top: 90vh;
+  width: 100%;
   font-size: 12px;
-  transform: rotate(-90deg);
+  text-align: center;
+  pointer-events: none;
   transform-origin: right;
 }
 
@@ -428,13 +430,14 @@ hr {
   color: white;
   width: 92.5vw;
   margin: auto;
-  border-bottom: 1px solid white;
+  border-left: 2px solid white;
   transition: 0.1s;
   overflow: hidden;
 }
 
 .title{
-  width: 92.5vw;
+  width: 87.5vw;
+  padding-left: 5vw;
   padding-top: 7vh;
   padding-bottom: 3vh;
   height: 10vh;
@@ -442,6 +445,23 @@ hr {
   flex-direction: row;
   align-items: flex-end;
   position: absolute;
+}
+.marker{
+  width: 16px;
+  height: 16px;
+  background-color: rgba(255,255,255,0);
+  border-radius: 50%;
+  position: absolute;
+  bottom: calc(3vh + 8px);
+  left: -9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.past .marker{
 }
 .title:hover{
   cursor: pointer;
@@ -460,7 +480,7 @@ hr {
 
 .speaker .copy{
   opacity: 0;
-  margin-left: 17.5vw;
+  margin-left: 10.5vw;
   margin-top: 22vh;
   color:white;
   transition: .25s;
@@ -486,6 +506,10 @@ hr {
   opacity: 1;
   pointer-events: all;
 }
+.speaker.current{
+  position: relative;
+  overflow: visible;
+}
 .speaker.selected{
   max-height: 200vh;
   padding-bottom: 50px;
@@ -495,12 +519,10 @@ hr {
 
 }
 .speaker.past{
-  border-bottom: 1px solid rgba(255,255,255,0.3);
+  border-left: 2px solid rgba(255,255,255,0.3);
   color: rgba(255,255,255,0.3);
 }
-.speaker.past:hover{
-  border-bottom: 1px solid rgba(255,255,255,0.3);
-}
+
 
 .speaker.future.current{
   max-height: 200vh;
@@ -622,7 +644,7 @@ display: flex;
     margin-bottom: 5vh;
   }
   .aboutButton{
-    bottom: 2vw;
+    top: 2vw;
     left: calc(90vw - 100px);
   }
   .schedule{

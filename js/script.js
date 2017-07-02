@@ -54,6 +54,7 @@ $('.logo').css('height', window.innerHeight+'px');
 
       var dateContainer = $('<div class="dateContainer"></div>');
       var title = $('<div class="title"></div>');
+      var marker = $('<div class="marker"><div class="pulsate"></div></div>');
       var copy = $('<div class="copy"></div>');
 
 
@@ -92,7 +93,7 @@ $('.logo').css('height', window.innerHeight+'px');
         speaker.addClass('past');
       }
       dateContainer.append(month,date);
-      title.append(dateContainer,name);
+      title.append(marker,dateContainer,name);
       copy.append(desc,photo);
       speaker.append(title,copy);
       container.append(speaker);
