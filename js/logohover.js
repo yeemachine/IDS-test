@@ -60,7 +60,6 @@ window.onload = function() {
         $('.aboutButton p').html('About IDS');
         $('.selected2').removeClass('selected2');
         $('.idsBlurb').addClass('selected2');
-              $('.rose, .about').attr('src', 'https://cooper.edu/sites/default/files/090905-Morgado-246.jpg');
               $('.rose, .about').removeClass('leslie omar');
      }
    });
