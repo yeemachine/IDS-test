@@ -418,7 +418,7 @@ hr {
 /*This is the div that contains the past speaker list*/
 
 .info {
-  padding-top: 5vw;
+  padding-top: 15vh;
   z-index: 2;
 }
 

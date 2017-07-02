@@ -6,7 +6,7 @@ $(window).on('beforeunload', function() {
   });
 
 $( document ).ready(function() {
-
+  Marquee3k.init()
   var today = new Date();
   var currentSpeaker;
   var eventChecker = false;
