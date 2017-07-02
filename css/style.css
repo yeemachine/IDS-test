@@ -355,14 +355,15 @@ h1 {
       height: 4.5vh;
       width: 1px
 }
-.spring .title{
+.spring{
+  display: block;
+  pointer-events: none;
 
 }
 .spring .speaker{
   border-left: 1px solid rgba(255,255,255,0.3);
   color:rgba(255,255,255,0.3);
   height: 20vh;
-  pointer-events: none;
 }
 .spring .speaker:last-child:after{
       content: "";
