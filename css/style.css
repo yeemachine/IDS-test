@@ -159,12 +159,12 @@ a {
     align-items: flex-start;
     justify-content: center;
     margin-left: 1.5vw;
-    margin-top: calc(50px + 3vw);
+    margin-top: calc(50px + 2vw);
     flex-direction: row;
 }
 .blurb {
     min-width: 40vw;
-    max-width: calc(100vw - 9vw - 100px);
+    max-width: calc(100vw - 9vw - 80px);
     max-height: 80vh;
     text-align: left;
     display: flex;
@@ -185,7 +185,7 @@ a {
 .ids {
     text-align: left;
     position: absolute;
-    top: 3vw;
+    top: 2vw;
     left: 3vw;
     font-weight: normal;
     font-size: 15px;
@@ -230,7 +230,7 @@ h1 {
     width: 100px;
     text-align: right;
     right: calc(2vw + 13px);
-    top: 3vw;
+    top: 2vw;
     opacity: 0;
     z-index: 5;
     animation: appear 3s forwards;
@@ -273,6 +273,9 @@ h1 {
     overflow-y: hidden;
     transition: .25s;
 }
+.professor .rose{
+  margin-left: 10vw;
+}
 .professor.selected2 {
     max-height: 100vh;
     transition: .25s;
@@ -280,8 +283,9 @@ h1 {
 .profTitle {
     display: inline-block;
     font-family: 'Halyard Text Bold';
-    width: 100%;
+    width: 80%;
     height: 10vh;
+    margin-left: 5vw;
     display: flex;
     align-items: center;
     position: absolute;
@@ -299,7 +303,7 @@ h1 {
     justify-content: flex-end;
 }
 .profDesc div {
-    max-width: 50%;
+    max-width: 45%;
 }
 
 .strokeText {
@@ -605,21 +609,27 @@ h1 {
     }
     .aboutButton {
         left: calc(90vw - 100px);
+        top:8vw;
     }
     .aboutButton p {
         border-bottom: 1px solid rgba(255, 255, 255, 1);
     }
     .schedule {
         left: 10vw;
+        top:20vw;
     }
     .ids {
         left: 10vw;
+        top:8vw;
     }
     .ids.showAbout {
         width: 80vw;
     }
     .professor {
         width: 80vw
+    }
+    .profTitle{
+      margin-left: 0;
     }
     .profDesc div {
         max-width: 80vw;
@@ -635,6 +645,7 @@ h1 {
     }
     .blurbContainer {
         margin-left: 8.5vw;
+        margin-top: 18.5vw;
         flex-direction: column;
     }
     .rose {
