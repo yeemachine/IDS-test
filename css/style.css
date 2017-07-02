@@ -144,7 +144,7 @@ a {
 }
 .about {
     position: absolute;
-    width: calc(100vw - 3vw);
+    width: calc(100% - 3vw);
     height: calc(100vh - 3vw);
     background-color: black;
     margin-left: 100vw;
