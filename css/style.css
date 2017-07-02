@@ -62,6 +62,16 @@
         opacity: 1;
     }
 }
+@keyframes pulsate {
+    0% {
+        opacity: .8;
+        transform: scale(1, 1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2.5, 2.5);
+    }
+}
 html, body {
     background-color: black;
     color: white;
@@ -331,7 +341,25 @@ h1 {
     padding-top: 15vh;
     z-index: 2;
 }
-.info .speaker:first-child:after{
+.eventcontainer{
+  position: relative;
+}
+.marker.begin.show {
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0;
+  left: calc(3.75vw - 16px);
+  z-index: 999;
+}
+.marker.begin.show div {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    animation: pulsate 1s cubic-bezier(0.670, 0.005, 0.200, 1.000) infinite;
+    animation-fill-mode: forwards;
+}
+/*.info .speaker:first-child:after{
       content: "";
       background: rgba(0, 0, 0, 1);
       position: absolute;
@@ -340,7 +368,7 @@ h1 {
       height: 15vh;
       width: 1px
 
-}
+}*/
 /*.info .speaker:last-child{
   color:rgba(255,255,255,0.3);
   border-left: 1px solid rgba(255,255,255,0.3)
@@ -471,10 +499,7 @@ h1 {
     max-height: 200vh;
     padding-bottom: 50px;
 }
-.speaker.past {
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-    color: rgba(255, 255, 255, 0.3);
-}
+
 .speaker.future.current {
     max-height: 200vh;
     padding-bottom: 50px;

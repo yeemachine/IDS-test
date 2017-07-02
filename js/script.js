@@ -116,6 +116,7 @@ $('.logo').css('height', window.innerHeight+'px');
 
      });
    }
+   $(container).prepend('<div class="marker begin"><div class="pulsate"></div></div>');
    $('.home, .artistName, .credit, .load, .ids, .about, .aboutButton, .strokeText, .professor').addClass(currentSpeaker);
    if (today > finalDate){
      $('.spring, .info').addClass('unlocked');
