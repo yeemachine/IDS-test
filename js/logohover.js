@@ -1,12 +1,14 @@
-
+var stroke1;
+var stroke2;
+var stroke3;
 window.onload = function() {
 
     var mySVG = document.getElementById("IDS");
     var svgDoc = mySVG.contentDocument;
     var container = svgDoc.getElementsByClassName("svgcontainer");
-    var stroke1 = svgDoc.getElementsByClassName("stroke");
-    var stroke2 = svgDoc.getElementsByClassName("stroke2");
-    var stroke3 = svgDoc.getElementsByClassName("stroke3");
+     stroke1 = svgDoc.getElementsByClassName("stroke");
+     stroke2 = svgDoc.getElementsByClassName("stroke2");
+     stroke3 = svgDoc.getElementsByClassName("stroke3");
     var load = svgDoc.getElementsByClassName("load");
 
 
@@ -53,6 +55,10 @@ window.onload = function() {
      $(stroke1).toggleClass('showAbout');
      $(stroke2).toggleClass('showAbout');
      $(stroke3).toggleClass('showAbout');
+     $(stroke1).addClass(currentSpeaker);
+     $(stroke2).addClass(currentSpeaker);
+     $(stroke3).addClass(currentSpeaker);
+
 
      if ( $( this ).hasClass( "showAbout" ) ) {
        $('.aboutButton p').html('Back');

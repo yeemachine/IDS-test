@@ -4,11 +4,11 @@ $(window).on('beforeunload', function() {
     // $('.load').addClass('regina');
 
   });
+var currentSpeaker;
 
 $( document ).ready(function() {
   Marquee3k.init()
   var today = new Date();
-  var currentSpeaker;
   var eventChecker = false;
 
 
@@ -111,7 +111,19 @@ $('.logo').css('height', window.innerHeight+'px');
 
      });
    }
-   $('.home, .artistName, .credit, .load, .ids, .about, .aboutButton').addClass(currentSpeaker);
+   $('.home, .artistName, .credit, .load, .ids, .about, .aboutButton, .strokeText, .professor').addClass(currentSpeaker);
+
+  //  var mySVG2 = document.getElementById("IDS");
+  //  var svgDoc2 = mySVG2.contentDocument;
+  //  var container2 = svgDoc2.getElementsByClassName("svgcontainer");
+  //  var stroke4 = svgDoc2.getElementsByClassName("stroke");
+  //  var stroke5 = svgDoc2.getElementsByClassName("stroke2");
+  //  var stroke6 = svgDoc2.getElementsByClassName("stroke3");
+  //  $(stroke4).addClass(currentSpeaker);
+  //  $(stroke5).addClass(currentSpeaker);
+  //  $(stroke6).addClass(currentSpeaker);
+
+  $(stroke1).addClass(currentSpeaker);
    $('.info').html(container);
 
    $('.speaker').addClass(currentSpeaker);

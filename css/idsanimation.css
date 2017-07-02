@@ -59,6 +59,9 @@ html {
 .stroke.showAbout, .stroke2.showAbout, .stroke3.showAbout{
   stroke: #000000;
 }
+.stroke.glaser.showAbout, .stroke2.glaser.showAbout, .stroke3.glaser.showAbout{
+  stroke: #ffffff;
+}
 .stroke.showAbout.invert, .stroke2.showAbout.invert, .stroke3.showAbout.invert{
   stroke: #ffffff;
 }

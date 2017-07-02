@@ -156,7 +156,6 @@ a {
     min-width: 40vw;
     max-width: calc(100vw - 9vw - 100px);
     max-height: 80vh;
-    color: black;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -165,7 +164,7 @@ a {
     opacity: 1;
     height: 40vh;
     margin-right: 5vw;
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 .home.showAbout {
     margin-left: -100vw
@@ -193,9 +192,7 @@ a {
 .ids.showAbout:hover {
     cursor: pointer;
 }
-.ids.showAbout h1 {
-    color: black;
-}
+
 h1 {
     font-family: 'Halyard Text Bold';
     font-weight: normal;
@@ -218,7 +215,7 @@ h1 {
     margin-right: 15px;
 }
 .aboutButton {
-    font-family: 'Halyard Text Bold';
+    font-family: 'Halyard Text Regular';
     position: absolute;
     width: 100px;
     text-align: right;
@@ -238,22 +235,18 @@ h1 {
     cursor: pointer;
 }
 .aboutButton.showAbout {
-    color: #000000;
     cursor: pointer;
 }
 .aboutButton.showAbout p {
     display: inline-block;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .aboutButton.showAbout p:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
     cursor: pointer;
 }
 .idsBlurb {
     overflow-y: hidden;
     padding: 0;
     max-height: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, .3);
     transition: .25s;
     color: rgba(0, 0, 0, 0);
     margin-top: 3vh;
@@ -261,22 +254,15 @@ h1 {
     flex-direction: row-reverse;
     justify-content: center;
 }
-.idsBlurb.hovered {
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
+
 .idsBlurb.selected2 {
-    color: rgba(0, 0, 0, 1);
     padding-bottom: 5vh;
     max-height: 100vh;
 }
 .professor {
     max-height: 10vh;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     overflow-y: hidden;
     transition: .25s;
-}
-.professor:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 .professor.selected2 {
     max-height: 100vh;
@@ -304,17 +290,15 @@ h1 {
     justify-content: flex-end;
 }
 .profDesc div {
-    max-width: 50vw;
+    max-width: 50%;
 }
-.selected2 .profDesc {
-    color: rgba(0, 0, 0, 1)
-}
+
 .strokeText {
     position: fixed;
     z-index: 9;
     bottom: .5vw;
     right: 2vw;
-    font-family: 'Halyard Text';
+    font-family: 'Halyard Text Regular';
     pointer-events: none;
     opacity: 0;
     width: 100px;
@@ -322,9 +306,6 @@ h1 {
 }
 .strokeText.hover {
     opacity: 1;
-}
-.strokeText.showAbout {
-    color: #000000
 }
 .strokeText.showAbout.invert {
     color: #ffffff
@@ -350,7 +331,58 @@ h1 {
     padding-top: 15vh;
     z-index: 2;
 }
+.info .speaker:first-child:after{
+      content: "";
+      background: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 0;
+      left: -1px;
+      height: 15vh;
+      width: 1px
+
+}
+/*.info .speaker:last-child{
+  color:rgba(255,255,255,0.3);
+  border-left: 1px solid rgba(255,255,255,0.3)
+}*/
+.info .speaker:last-child.selected{
+  max-height: 20vh;
+  padding-bottom: 0;
+}
+.info .speaker:last-child.selected .copy{
+  opacity: 0;
+  pointer-events: none;
+}
+.info .speaker:last-child:after{
+      content: "";
+      background: rgba(0, 0, 0, .7);
+      position: absolute;
+      bottom: 0;
+      left: -1px;
+      height: 4.5vh;
+      width: 1px
+}
+.spring .title{
+
+}
+.spring .speaker{
+  border-left: 1px solid rgba(255,255,255,0.3);
+  color:rgba(255,255,255,0.3);
+  height: 20vh;
+  pointer-events: none;
+}
+.spring .speaker:last-child:after{
+      content: "";
+      background: rgba(0, 0, 0, 1);
+      position: absolute;
+      bottom: 0;
+      left: -1px;
+      height: 4.5vh;
+      width: 1px
+}
+
 .speaker {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -361,8 +393,9 @@ h1 {
     margin: auto;
     border-left: 1px solid white;
     transition: 0.1s;
-    overflow: hidden;
+    overflow: visible;
 }
+
 .title {
     width: 87.5vw;
     padding-left: 5vw;

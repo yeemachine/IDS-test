@@ -15,6 +15,43 @@
 .about.glaser {
     background-color: rgba(71, 120, 255, 1);
 }
+.aboutButton.glaser.showAbout{
+    color: #ffffff;
+}
+.aboutButton.glaser.showAbout p {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.aboutButton.glaser.showAbout p:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.strokeText.glaser.showAbout {
+    color: #ffffff
+}
+.glaser .idsBlurb.selected2 {
+  color: rgba(255, 255, 255, 1);
+}
+.glaser .idsBlurb{
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+
+}
+.glaser .blurb{
+  color: white;
+}
+.glaser .idsBlurb.hovered {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.ids.glaser.showAbout h1 {
+    color: white;
+}
+.professor.glaser{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.professor.glaser:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.selected2.glaser .profDesc {
+    color: rgba(255, 255, 255, 1)
+}
 .glaser .currentDate {
     color: rgba(71, 120, 255, 1)
 }
