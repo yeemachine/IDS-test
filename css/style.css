@@ -345,14 +345,7 @@ h1 {
   color:rgba(255,255,255,0.3);
   border-left: 1px solid rgba(255,255,255,0.3)
 }*/
-.info .speaker:last-child.selected{
-  max-height: 20vh;
-  padding-bottom: 0;
-}
-.info .speaker:last-child.selected .copy{
-  opacity: 0;
-  pointer-events: none;
-}
+
 .info .speaker:last-child:after{
       content: "";
       background: rgba(0, 0, 0, .7);
