@@ -297,7 +297,7 @@ hr {
   width: 100px;
   text-align: right;
   right:calc(2vw + 13px);
-  top:2vw;
+  top:3vw;
   opacity: 0;
   z-index: 5;
   animation: appear 3s forwards;
@@ -305,6 +305,7 @@ hr {
 .aboutButton p{
   display: inline-block;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0;
 }
 .aboutButton p:hover{
   border-bottom: 1px solid rgba(255, 255, 255, 1);
@@ -644,7 +645,6 @@ display: flex;
     margin-bottom: 5vh;
   }
   .aboutButton{
-    top: 2vw;
     left: calc(90vw - 100px);
   }
   .schedule{
