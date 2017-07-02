@@ -125,7 +125,6 @@ border-bottom: 1px solid rgba(71,120,255,1)
   background-color: rgba(71,120,255,1);
 }
 .current.glaser .marker div{
-  position: absolute;
   width: 16px;
   height: 16px;
   background-color: rgba(71,120,255,1);
