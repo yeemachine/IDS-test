@@ -252,7 +252,7 @@ line-height: 1.3;
 transition: .25s
 }
 .ids.showAbout{
-  width: 80vw;
+  width: calc(100vw - 9vw - 100px);
   padding-bottom: 2vw;
 }
 .ids.showAbout:hover{
