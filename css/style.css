@@ -82,7 +82,7 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 15px;
     -webkit-overflow-scrolling: touch;
 }
 a {
@@ -188,7 +188,7 @@ a {
     top: 3vw;
     left: 3vw;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 15px;
     z-index: 5;
     opacity: 0;
     animation: appear 3s forwards;
@@ -206,7 +206,7 @@ a {
 h1 {
     font-family: 'Halyard Text Bold';
     font-weight: normal;
-    font-size: 17px;
+    font-size: 15px;
     line-height: normal;
     margin: 0;
     display: inline-block;
@@ -216,7 +216,7 @@ h1 {
     position: absolute;
     display: flex;
     flex-direction: column;
-    font-size: 17px;
+    font-size: 15px;
     left: 3vw;
     top: calc(3vw + 50px + 2vh);
     line-height: 1.2
@@ -473,7 +473,7 @@ h1 {
     pointer-events: none;
 }
 .speaker .description {
-    font-size: 17px;
+    font-size: 15px;
     width: 50%;
     margin-right: 5vw;
 }

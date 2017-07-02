@@ -117,6 +117,11 @@ $('.logo').css('height', window.innerHeight+'px');
 
      });
    }
+   $('#additional').attr({
+      rel:  "stylesheet",
+      type: "text/css",
+      href: "css/"+currentSpeaker+".css"
+    });
    $(container).prepend('<div class="marker begin"><div class="pulsate"></div></div>');
    $('.home, .artistName, .credit, .load, .ids, .about, .aboutButton, .strokeText, .professor').addClass(currentSpeaker);
 
