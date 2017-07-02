@@ -149,7 +149,7 @@ a {
     align-items: flex-start;
     justify-content: center;
     margin-left: 3vw;
-    margin-top: calc(50px+ 3vw);
+    margin-top: calc(50px + 3vw);
     flex-direction: row;
 }
 .blurb {
@@ -211,7 +211,7 @@ h1 {
     flex-direction: column;
     font-size: 17px;
     left: 3vw;
-    top: calc(3vw+ 50px+ 2vh);
+    top: calc(3vw + 50px + 2vh);
     line-height: 1.2
 }
 .scheduleDate {
@@ -380,7 +380,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0);
     border-radius: 50%;
     position: absolute;
-    bottom: calc(3vh+ 8px);
+    bottom: calc(3vh + 8px);
     left: -9px;
     display: flex;
     align-items: center;
@@ -470,7 +470,7 @@ h1 {
 .speaker .name {
     width: 70vw;
     display: inline-block;
-    font-size: calc(25px+ 1vw);
+    font-size: calc(25px + 1vw);
     font-weight: normal;
     font-family: "Halyard Text Bold";
 }
@@ -534,7 +534,7 @@ h1 {
         pointer-events: none;
         position: absolute;
         transition: .25s;
-        left: calc(90vw - 100px+ 13px);
+        left: calc(90vw - 100px + 13px);
         top: 80vh;
     }
     #IDSload {
