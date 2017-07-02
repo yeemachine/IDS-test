@@ -259,7 +259,6 @@ h1 {
     max-height: 0;
     transition: .25s;
     color: rgba(0, 0, 0, 0);
-    margin-top: 3vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -635,7 +634,7 @@ h1 {
         width: 80vw
     }
     .blurbContainer {
-        margin-left: 10vw;
+        margin-left: 8.5vw;
         flex-direction: column;
     }
     .rose {

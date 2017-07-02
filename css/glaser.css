@@ -13,16 +13,26 @@
     font-size: 7vw;
 }
 .about.glaser {
-    background-color: rgba(71, 120, 255, 1);
+  background-color: black;
+  border: 1.5vw solid rgba(71, 120, 255, 1)
 }
 .aboutButton.glaser.showAbout{
-    color: #ffffff;
+    color: rgba(71, 120, 255,1)
+}
+.aboutButton.glaser{
+  color: rgba(71, 120, 255,1)
+}
+.aboutButton.glaser p {
+    border-bottom: 1px solid rgba(71, 120, 255, 0.3);
+}
+.aboutButton.glaser p:hover {
+    border-bottom: 1px solid rgba(71, 120, 255, 1);
 }
 .aboutButton.glaser.showAbout p {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(71, 120, 255, 0.3);
 }
 .aboutButton.glaser.showAbout p:hover {
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(71, 120, 255, 1);
 }
 .strokeText.glaser.showAbout {
     color: #ffffff
