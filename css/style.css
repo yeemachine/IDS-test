@@ -222,7 +222,7 @@ h1 {
     position: absolute;
     width: 100px;
     text-align: right;
-    right: calc(2vw+ 13px);
+    right: calc(2vw + 13px);
     top: 3vw;
     opacity: 0;
     z-index: 5;
