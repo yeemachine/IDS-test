@@ -144,8 +144,8 @@ a {
 }
 .about {
     position: absolute;
-    width: calc(100% - 3vw);
-    height: calc(100vh - 3vw);
+    width: calc(100% - 2vw);
+    height: calc(100vh - 2vw);
     background-color: black;
     margin-left: 100vw;
     transition: .25s;
@@ -158,7 +158,7 @@ a {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 1.5vw;
+    margin-left: 2vw;
     margin-top: calc(50px + 2vw);
     flex-direction: row;
 }
@@ -218,7 +218,7 @@ h1 {
     flex-direction: column;
     font-size: 15px;
     left: 3vw;
-    top: calc(3vw + 50px + 2vh);
+    top: calc(50px + 2vw);
     line-height: 1.2
 }
 .scheduleDate {
@@ -608,18 +608,18 @@ h1 {
         margin-bottom: 5vh;
     }
     .aboutButton {
-        left: calc(90vw - 100px);
+        left: calc(89vw - 100px);
         top:8vw;
     }
     .aboutButton p {
         border-bottom: 1px solid rgba(255, 255, 255, 1);
     }
     .schedule {
-        left: 10vw;
+        left: 9vw;
         top:20vw;
     }
     .ids {
-        left: 10vw;
+        left: 9vw;
         top:8vw;
     }
     .ids.showAbout {
@@ -644,7 +644,7 @@ h1 {
         width: 80vw
     }
     .blurbContainer {
-        margin-left: 8.5vw;
+        margin-left: 8vw;
         margin-top: 18.5vw;
         flex-direction: column;
     }
