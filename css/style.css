@@ -339,7 +339,7 @@ hr {
 .idsBlurb.selected2{
   color: rgba(0,0,0,1);
   padding-bottom: 5vh;
-  max-height: none;
+  max-height: 100vh;
   /*height: 55vh;*/
 }
 .professor{
@@ -363,6 +363,7 @@ hr {
   height: 10vh;
   display: flex;
   align-items: center;
+  position: absolute;
 }
 .profTitle:hover{
   cursor: pointer;
@@ -371,6 +372,7 @@ hr {
   color: rgba(0,0,0,0);
   transition: .25s;
   margin-bottom: 5vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
