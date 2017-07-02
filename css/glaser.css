@@ -1,176 +1,89 @@
-/*::selection {
-  background: rgba(71,120,255,1);
+@keyframes pulsate {
+    0% {
+        opacity: .8;
+        transform: scale(1, 1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2.5, 2.5);
+    }
 }
-
-::-moz-selection {
-  background: rgba(71,120,255,1);
-}*/
-@keyframes pulsate{
-  0%{
-    opacity: .8;
-    transform: scale(1,1);
-  }
-  100%{
-    opacity: 0;
-    transform: scale(2.5,2.5);
-  }
-
+.artistName.glaser {
+    transform: rotate(-20deg);
+    font-size: 7vw;
 }
-.artistName.glaser  {
-  transform: rotate(-20deg);
-  font-size: 7vw;
+.about.glaser {
+    background-color: rgba(71, 120, 255, 1);
 }
-.about.glaser{
-  background-color: rgba(71,120,255,1);
-
+.glaser .currentDate {
+    color: rgba(71, 120, 255, 1)
 }
-/*.about.glaser:before{
-  content: ' ';
-   display: block;
-   position: absolute;
-   left: 50%;
-   top: 0;
-   width: 50%;
-   height: 100%;
-   opacity: 0.1;
-   background-image: url('https://cooper.edu/sites/default/files/090905-Morgado-246.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
-   filter: grayscale(1);
-   background-blend-mode: multiply;
-}
-.about.glaser.leslie:before{
-  content: ' ';
-   display: block;
-   position: absolute;
-   left: 50%;
-   top: 0;
-   width: 50%;
-   height: 100%;
-   opacity: 0.1;
-   background-image: url('http://www.sikkemajenkinsco.com/images/artwork/2833_08.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
-   filter: grayscale(1);
-   background-blend-mode: multiply;
-}
-.about.glaser.omar:before{
-  content: ' ';
-   display: block;
-   position: absolute;
-   left: 50%;
-   top: 0;
-   width: 50%;
-   height: 100%;
-   opacity: 0.1;
-   background-image: url('http://curatorsintl.org/images/assets/Mdc_Seminar.jpeg');
-   background-position: center;
-   background-repeat: no-repeat;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
-   filter: grayscale(1);
-   background-blend-mode: multiply;
-}*/
-
-.glaser .currentDate{
-  color: rgba(71,120,255,1)
-}
-
 .glaser .website {
-  color: rgba(71,120,255,1);
-  border-bottom: 1px solid rgba(71,120,255,0.3)
+    color: rgba(71, 120, 255, 1);
+    border-bottom: 1px solid rgba(71, 120, 255, 0.3)
 }
-.glaser .website:hover{
-border-bottom: 1px solid rgba(71,120,255,1)
+.glaser .website:hover {
+    border-bottom: 1px solid rgba(71, 120, 255, 1)
 }
 .speaker:hover.glaser {
-  color: rgba(71,120,255,1);
+    color: rgba(71, 120, 255, 1);
 }
 .speaker.past.glaser {
-  border-left: 1px solid rgba(71,120,255,1);
-  color: white;
+    border-left: 1px solid rgba(71, 120, 255, 1);
+    color: white;
 }
 .speaker.past.glaser:hover {
+    color: rgba(71, 120, 255, 1)
 }
-.speaker.past.glaser:hover{
-  color:rgba(71,120,255,1)
+.speaker.future.current.glaser .title {
+    color: rgba(71, 120, 255, 1);
 }
-.speaker.future.current.glaser .title{
-  color: rgba(71,120,255,1);
-}
-
 .current.glaser:after {
-  content: "";
-    background: rgba(71,120,255,1);
+    content: "";
+    background: rgba(71, 120, 255, 1);
     position: absolute;
     top: 0;
     left: -1px;
     height: 15vh;
     width: 1px
 }
-.current.glaser .marker{
-  background-color: rgba(71,120,255,1);
+.current.glaser .marker {
+    background-color: rgba(71, 120, 255, 1);
 }
-.current.glaser .marker div{
-  width: 16px;
-  height: 16px;
-  background-color: rgba(71,120,255,1);
-  border-radius: 50%;
-  animation: pulsate 1s cubic-bezier(0.670, 0.005, 0.200, 1.000) infinite;
-  animation-fill-mode: forwards;
-
+.current.glaser .marker div {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(71, 120, 255, 1);
+    border-radius: 50%;
+    animation: pulsate 1s cubic-bezier(0.670, 0.005, 0.200, 1.000) infinite;
+    animation-fill-mode: forwards;
 }
-/*.current.glaser .marker:after{
-  background-color: rgba(71,120,255,1);
-  transform: translate(-50%,-50%);
-  content: ' ';
-   display: block;
-   position: absolute;
-   left: 0;
-   top: 0;
-   animation: pulsate .7s cubic-bezier(0.670, 0.005, 0.200, 1.000) infinite;
-}*/
-
 a.glaser {
-  text-decoration: none;
-  color: rgba(71,120,255,1);
+    text-decoration: none;
+    color: rgba(71, 120, 255, 1);
 }
 a.glaser:hover {
-  border-bottom: 1px solid rgba(71,120,255,1);
+    border-bottom: 1px solid rgba(71, 120, 255, 1);
 }
 .load.glaser {
-  background-color: rgba(71,120,255,1);
+    background-color: rgba(71, 120, 255, 1);
 }
 .home.glaser {
-  background: url('../assets/img/regina.jpg') repeat center center;
-  background-color: rgba(71,120,255,1);
-  background-blend-mode: multiply;
+    background: url('../assets/img/regina.jpg') repeat center center;
+    background-color: rgba(71, 120, 255, 1);
+    background-blend-mode: multiply;
 }
 @media screen and (max-width: 820px) {
-  .glaser .website{
-  border-bottom: 1px solid rgba(71,120,255,1)
-  }
-
-  .speaker:hover.glaser {
-    color: rgba(255, 255, 255, 1);
-  }
-  .speaker.past:hover.glaser {
-    color: rgba(255, 255, 255, 1);
-  }
-  a.glaser:hover {
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-  }
+    .glaser .website {
+        border-bottom: 1px solid rgba(71, 120, 255, 1)
+    }
+    .speaker:hover.glaser {
+        color: rgba(255, 255, 255, 1);
+    }
+    .speaker.past:hover.glaser {
+        color: rgba(255, 255, 255, 1);
+    }
+    a.glaser:hover {
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
 }

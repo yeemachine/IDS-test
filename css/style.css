@@ -1,760 +1,642 @@
 @font-face {
     font-family: 'Halyard Display Regular';
-    src: url('../webfonts/halyarddis-regular-webfont.woff2') format('woff2'),
-         url('../webfonts/halyarddis-regular-webfont.woff') format('woff');
+    src: url('../webfonts/halyarddis-regular-webfont.woff2') format('woff2'), url('../webfonts/halyarddis-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 @font-face {
     font-family: 'Halyard Display Black';
-    src: url('../webfonts/halyarddisblack-webfont.woff2') format('woff2'),
-         url('../webfonts/halyarddisblack-webfont.woff') format('woff');
+    src: url('../webfonts/halyarddisblack-webfont.woff2') format('woff2'), url('../webfonts/halyarddisblack-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 @font-face {
     font-family: 'Halyard Display Extra Light';
-    src: url('../webfonts/halyarddisexlt-webfont.woff2') format('woff2'),
-         url('../webfonts/halyarddisexlt-webfont.woff') format('woff');
+    src: url('../webfonts/halyarddisexlt-webfont.woff2') format('woff2'), url('../webfonts/halyarddisexlt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 @font-face {
     font-family: 'Halyard Text Regular';
     src: url('../webfonts/HalyardText-Reg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 @font-face {
     font-family: 'Halyard Text Bold';
-    src:
-         url('../webfonts/HalyardText-Bd.woff') format('woff');
+    src: url('../webfonts/HalyardText-Bd.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 @font-face {
     font-family: 'Halyard Text Italic';
-    src:
-         url('../webfonts/HalyardText-It.woff') format('woff');
+    src: url('../webfonts/HalyardText-It.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-.wrapper{
-  overflow-x: hidden;
-  top:0;
-  left:0;
-  overflow-y: scroll;
-  position: relative;
-  height: 100vh;
+@keyframes load {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+        z-index: 10;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+        z-index: -1;
+    }
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 html, body {
-  /*display: none;*/
-  background-color: black;
-  color: white;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 17px;
-  -webkit-overflow-scrolling: touch;
-
-
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    -webkit-overflow-scrolling: touch;
 }
-
-
 a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
-
 .social a {
-  text-decoration: none;
-  color: white;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 .social a:hover {
-  color: white;
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
-
 #IDS {
-  position: fixed;
-  bottom: 2vw;
-  right: 2vw;
-  width: 100px;
-  z-index: 9;
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    width: 100px;
+    z-index: 9;
 }
-
-
 .load {
-  /*background-color: crimson;*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  animation: load 3s forwards;
-
-
-}
-
-@keyframes load {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  99% {
-    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 10;
-  }
-  100% {
-    opacity: 0;
-    pointer-events: none;
-    z-index: -1;
-  }
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    animation: load 3s forwards;
 }
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 #IDSload {
-  height: 35vh;
-  margin-bottom: 5vh;
+    height: 35vh;
+    margin-bottom: 5vh;
 }
-
 .home {
-  position: absolute;
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  /* vertical-align: middle; */
-  opacity: 0;
-  transition: .25s;
-  animation: appear 3s forwards;
-  z-index: 3;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: .25s;
+    animation: appear 3s forwards;
+    z-index: 3;
 }
-.homeContainer{
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  overflow-x: hidden;
-  position: relative;
+.homeContainer {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    position: relative;
 }
-.about{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  margin-left:100vw;
-  transition: .25s;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  z-index: 2;
-
-
+.about {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin-left: 100vw;
+    transition: .25s;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 2;
 }
-
-.blurbContainer{
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  margin-left: 3vw;
-  margin-top: calc(50px + 3vw);
-  flex-direction: row;
+.blurbContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-top: calc(50px+ 3vw);
+    flex-direction: row;
 }
-.blurb{
-  min-width: 40vw;
-  max-width: calc(100vw - 9vw - 100px);
-  /*max-width: 85.7vw;*/
-  max-height: 80vh;
-  color: black;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
+.blurb {
+    min-width: 40vw;
+    max-width: calc(100vw - 9vw - 100px);
+    max-height: 80vh;
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
-.rose{
-  opacity: 1;
-  /*position: absolute;*/
-  /*right: calc(2vw + 13px);*/
-  /*left:50vw;*/
-  /*margin-top: 3vh;*/
-  /*margin-top: -1vh;*/
-  /*max-width: calc(45vw - 100px);*/
-  height: 40vh;
-  margin-right: 5vw;
-  margin-left: 10vw;
-  /*filter: grayscale(1);
-  mix-blend-mode: multiply;*/
+.rose {
+    opacity: 1;
+    height: 40vh;
+    margin-right: 5vw;
+    margin-left: 10vw;
 }
-
-.home.showAbout{
-  margin-left:-100vw
+.home.showAbout {
+    margin-left: -100vw
 }
-.about.showAbout{
-  margin-left: 0vw
+.about.showAbout {
+    margin-left: 0vw
 }
-
-
-
-
-
-
-
 .ids {
-text-align: left;
-position: absolute;
-top: 3vw;
-left: 3vw;
-font-weight: normal;
-font-size: 17px;
-z-index: 5;
-opacity: 0;
-animation: appear 3s forwards;
-line-height: 1.3;
-transition: .25s
+    text-align: left;
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    font-weight: normal;
+    font-size: 17px;
+    z-index: 5;
+    opacity: 0;
+    animation: appear 3s forwards;
+    line-height: 1.3;
+    transition: .25s
 }
-.ids.showAbout{
-  width: calc(100vw - 9vw - 100px);
-  padding-bottom: 2vw;
+.ids.showAbout {
+    width: calc(100vw - 9vw - 100px);
+    padding-bottom: 2vw;
 }
-.ids.showAbout:hover{
-  cursor: pointer;
+.ids.showAbout:hover {
+    cursor: pointer;
 }
-.ids.showAbout h1{
-  color:black;
+.ids.showAbout h1 {
+    color: black;
 }
-
-
 h1 {
-  font-family: 'Halyard Text Bold';
-  font-weight: normal;
-  font-size: 17px;
-  line-height: normal;
-  margin: 0;
-  display: inline-block;
+    font-family: 'Halyard Text Bold';
+    font-weight: normal;
+    font-size: 17px;
+    line-height: normal;
+    margin: 0;
+    display: inline-block;
 }
-.schedule{
-  text-align: left;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  font-size: 17px;
-  left:3vw;
-  top:calc(3vw + 50px + 2vh);
-  line-height: 1.2
+.schedule {
+    text-align: left;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    left: 3vw;
+    top: calc(3vw+ 50px+ 2vh);
+    line-height: 1.2
 }
-.scheduleDate{
-  margin-right: 15px;
+.scheduleDate {
+    margin-right: 15px;
 }
-hr {
-  border: none;
-  height: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+.aboutButton {
+    font-family: 'Halyard Text Bold';
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    right: calc(2vw+ 13px);
+    top: 3vw;
+    opacity: 0;
+    z-index: 5;
+    animation: appear 3s forwards;
 }
-.aboutButton{
-  font-family: 'Halyard Text';
-  position: absolute;
-  width: 100px;
-  text-align: right;
-  right:calc(2vw + 13px);
-  top:3vw;
-  opacity: 0;
-  z-index: 5;
-  animation: appear 3s forwards;
+.aboutButton p {
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0;
 }
-.aboutButton p{
-  display: inline-block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  margin: 0;
+.aboutButton p:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
-.aboutButton p:hover{
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
-  cursor: pointer;
+.aboutButton.showAbout {
+    color: #000000;
+    cursor: pointer;
 }
-.aboutButton.showAbout{
-  color: #000000;
-  cursor: pointer;
+.aboutButton.showAbout p {
+    display: inline-block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-.aboutButton.showAbout p{
-  display: inline-block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.aboutButton.showAbout p:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    cursor: pointer;
 }
-.aboutButton.showAbout p:hover{
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-  cursor: pointer;
+.idsBlurb {
+    overflow-y: hidden;
+    padding: 0;
+    max-height: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    transition: .25s;
+    color: rgba(0, 0, 0, 0);
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
-.idsBlurb{
-  overflow-y: hidden;
-  padding: 0;
-  max-height: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, .3);
-  transition: .25s;
-  color: rgba(0,0,0,0);
-  margin-top: 3vh;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
+.idsBlurb.hovered {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
-.idsBlurb.hovered{
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
+.idsBlurb.selected2 {
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 5vh;
+    max-height: 100vh;
 }
-.idsBlurb.selected2{
-  color: rgba(0,0,0,1);
-  padding-bottom: 5vh;
-  max-height: 100vh;
-  /*height: 55vh;*/
-}
-.professor{
+.professor {
     max-height: 10vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     overflow-y: hidden;
     transition: .25s;
 }
-.professor:hover{
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
+.professor:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
-.professor.selected2{
-  max-height: 100vh;
-  /*height: 70vh;*/
-  transition: .25s;
+.professor.selected2 {
+    max-height: 100vh;
+    transition: .25s;
 }
-.profTitle{
-  display: inline-block;
-  font-family: 'Halyard Text Bold';
-  width: 100%;
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  position: absolute;
+.profTitle {
+    display: inline-block;
+    font-family: 'Halyard Text Bold';
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
 }
-.profTitle:hover{
-  cursor: pointer;
+.profTitle:hover {
+    cursor: pointer;
 }
-.profDesc{
-  color: rgba(0,0,0,0);
-  transition: .25s;
-  margin-bottom: 5vh;
-  margin-top: 10vh;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+.profDesc {
+    color: rgba(0, 0, 0, 0);
+    transition: .25s;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
-.profDesc div{
-  max-width: 50vw;
+.profDesc div {
+    max-width: 50vw;
 }
-.selected2 .profDesc{
-  color: rgba(0,0,0,1)
+.selected2 .profDesc {
+    color: rgba(0, 0, 0, 1)
 }
-.strokeText{
-  position: fixed;
-  z-index: 9;
-  bottom: .5vw;
-  right: 2vw;
-  font-family: 'Halyard Text';
-  pointer-events: none;
-  opacity: 0;
-  width: 100px;
-  text-align: center;
+.strokeText {
+    position: fixed;
+    z-index: 9;
+    bottom: .5vw;
+    right: 2vw;
+    font-family: 'Halyard Text';
+    pointer-events: none;
+    opacity: 0;
+    width: 100px;
+    text-align: center;
 }
-.strokeText.hover{
-  opacity: 1;
+.strokeText.hover {
+    opacity: 1;
 }
-.strokeText.showAbout{
-  color:#000000
+.strokeText.showAbout {
+    color: #000000
 }
-.strokeText.showAbout.invert{
-  color:#ffffff
+.strokeText.showAbout.invert {
+    color: #ffffff
 }
 .artistName {
-  font-family: 'Halyard Display Black', Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  font-size: 11vw;
-  transform-origin: center;
-  margin: 0;
+    font-family: 'Halyard Display Black', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 11vw;
+    transform-origin: center;
+    margin: 0;
 }
-
-
 .credit {
-  position: absolute;
-  left: 0;
-  top: 90vh;
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  pointer-events: none;
-  transform-origin: right;
+    position: absolute;
+    left: 0;
+    top: 90vh;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    pointer-events: none;
+    transform-origin: right;
 }
-
-/*This is the div that contains the past speaker list*/
-
 .info {
-  padding-top: 15vh;
-  z-index: 2;
+    padding-top: 15vh;
+    z-index: 2;
 }
-
 .speaker {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-height: 20vh;
-  text-align: left;
-  color: white;
-  width: 92.5vw;
-  margin: auto;
-  border-left: 1px solid white;
-  transition: 0.1s;
-  overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 20vh;
+    text-align: left;
+    color: white;
+    width: 92.5vw;
+    margin: auto;
+    border-left: 1px solid white;
+    transition: 0.1s;
+    overflow: hidden;
 }
-
-.title{
-  width: 87.5vw;
-  padding-left: 5vw;
-  padding-top: 7vh;
-  padding-bottom: 3vh;
-  height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  position: absolute;
+.title {
+    width: 87.5vw;
+    padding-left: 5vw;
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
 }
-.marker{
-  width: 16px;
-  height: 16px;
-  background-color: rgba(255,255,255,0);
-  border-radius: 50%;
-  position: absolute;
-  bottom: calc(3vh + 8px);
-  left: -9px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+.marker {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: calc(3vh+ 8px);
+    left: -9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
-.past .marker{
+.title:hover {
+    cursor: pointer;
 }
-.title:hover{
-  cursor: pointer;
+.copy {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
 }
-.copy{
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-}
-
 .event p {
-  font-size: 14px;
-  display: inline-block;
-  width: 30px;
+    font-size: 14px;
+    display: inline-block;
+    width: 30px;
 }
-
-
-.speaker .copy{
-  opacity: 0;
-  margin-left: 10.5vw;
-  margin-top: 22vh;
-  color:white;
-  transition: .25s;
-  pointer-events: none;
+.speaker .copy {
+    opacity: 0;
+    margin-left: 10.5vw;
+    margin-top: 22vh;
+    color: white;
+    transition: .25s;
+    pointer-events: none;
 }
-
-.speaker .description{
-  font-size: 17px;
-  width: 50%;
-  margin-right: 5vw;
+.speaker .description {
+    font-size: 17px;
+    width: 50%;
+    margin-right: 5vw;
 }
-.speaker .photo{
-  max-width: 50%;
-  max-height: 70vh;
-  margin-right: 5vw;
-  background-size: contain;
-  background-repeat: no-repeat;
+.speaker .photo {
+    max-width: 50%;
+    max-height: 70vh;
+    margin-right: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-
-.website{
-  margin-top: 5vh;
+.website {
+    margin-top: 5vh;
 }
-.speaker.current .copy, .speaker.selected .copy{
-  opacity: 1;
-  pointer-events: all;
+.speaker.current .copy, .speaker.selected .copy {
+    opacity: 1;
+    pointer-events: all;
 }
-.speaker.current{
-  position: relative;
-  overflow: visible;
+.speaker.current {
+    position: relative;
+    overflow: visible;
 }
-.speaker.selected{
-  max-height: 200vh;
-  padding-bottom: 50px;
+.speaker.selected {
+    max-height: 200vh;
+    padding-bottom: 50px;
 }
-.speaker.past .title{
-  /*opacity: .3;*/
-
+.speaker.past {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.3);
 }
-.speaker.past{
-  border-left: 1px solid rgba(255,255,255,0.3);
-  color: rgba(255,255,255,0.3);
+.speaker.future.current {
+    max-height: 200vh;
+    padding-bottom: 50px;
 }
-
-
-.speaker.future.current{
-  max-height: 200vh;
-  padding-bottom: 50px;
+.speaker.future.current .copy {
+    opacity: 1;
 }
-
-
-.speaker.future.current .copy{
-  opacity: 1;
+.speaker .month {
+    width: 3vw;
+    font-size: 1.5vw;
+    font-family: 'Halyard Text Bold', Arial, sans-serif;
 }
-
-
-
-.speaker .month{
-  width: 3vw;
-font-size: 1.5vw;
-font-family: 'Halyard Text Bold', Arial, sans-serif;
-}
-
 .date {
-  font-family: 'Halyard Display Extra Light', Arial, sans-serif;
-  line-height: 1;
+    font-family: 'Halyard Display Extra Light', Arial, sans-serif;
+    line-height: 1;
 }
-.dateContainer{
-  display: flex;
+.dateContainer {
+    display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
 .speaker .date {
-  font-size: 7.5vw;
-margin-left: 2.5vw;
-margin-right: 0vw;
-width: 12vw;
-font-weight: 400;
-display: flex;
+    font-size: 7.5vw;
+    margin-left: 2.5vw;
+    margin-right: 0vw;
+    width: 12vw;
+    font-weight: 400;
+    display: flex;
 }
-
 .speaker .name {
-  width: 70vw;
-  display: inline-block;
-  font-size: calc(25px + 1vw);
-  font-weight: normal;
-  font-family: "Halyard Text Bold";
+    width: 70vw;
+    display: inline-block;
+    font-size: calc(25px+ 1vw);
+    font-weight: normal;
+    font-family: "Halyard Text Bold";
 }
-
 .footer {
-  display: flex;
-  background-color: black;
-  text-align: left;
-  width: 92.5vw;
-  margin: auto;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-
-  padding-top: 50px;
-  padding-bottom: 80px;
+    display: flex;
+    background-color: black;
+    text-align: left;
+    width: 92.5vw;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
-
 .leftfooter img {
-  width: 70px;
+    width: 70px;
 }
-
 .leftfooter {
-  width: 50%;
+    width: 50%;
 }
-
 .rightfooter {
-  width: 50%;
+    width: 50%;
 }
-
 .rightfooter input {
-  font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;;
-  width: 220px;
-  font-size: 17px;
-  border: none;
-  color: white;
-  border-bottom: 1px solid white;
-  background-color: black;
-  outline: none;
+    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
+    ;
+    width: 220px;
+    font-size: 17px;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color: black;
+    outline: none;
 }
-
 .rightfooter button {
-  font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;;
-  font-size: 17px;
-  margin-left: 10px;
-  padding: 5px;
-  background-color: black;
-  border: 1px solid white;
-  color: white;
-  outline: none;
+    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
+    ;
+    font-size: 17px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    outline: none;
 }
-
 .rightfooter button:hover {
-  font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;;
-  font-size: 17px;
-  margin-left: 10px;
-  background-color: white;
-  border: 1px solid white;
-  color: black;
-  outline: none;
+    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
+    ;
+    font-size: 17px;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    outline: none;
 }
-
 .copyright {
-  font-size: 13px;
+    font-size: 13px;
 }
 @media screen and (max-width: 820px) {
-  #IDS{
-    pointer-events: none;
-    position: absolute;
-    transition: .25s;
-    left: calc(90vw - 100px + 13px);
-    top: 80vh;
-  }
-
-  #IDSload {
-    width: 70vw;
-    height: auto;
-    margin-bottom: 5vh;
-  }
-  .aboutButton{
-    left: calc(90vw - 100px);
-  }
-  .aboutButton p{
-    border-bottom: 1px solid rgba(255, 255, 255, 1);
-  }
-  .schedule{
-    left: 10vw;
-  }
-  .ids{
-    left: 10vw;
-  }
-  .ids.showAbout{
-    width: 80vw;
-  }
-  .professor{
-    width: 80vw
-  }
-  .profDesc div{
-    max-width: 80vw;
-  }
-  .idsBlurb{
-    width: 80vw;
-  }
-  .credit{
-    display: none;
-  }
-  .blurb{
-    width: 80vw
-  }
-  .blurbContainer{
-    margin-left: 10vw;
-    flex-direction: column;
-  }
-  .rose{
-    display: none;
-  }
-  .speaker{
-    width: calc(100% - 2px);
-    max-height: 20vh;
-
-  }
-  .marker{
-    left:3.5vw;
-  }
-  .speaker .month{
-    font-size: 17px;
-  }
-  .copy{
-    flex-direction: column-reverse;
-  }
-  .dateContainer{
-      flex-direction: column;
-      /*align-items: center;*/
-  }
-  .speaker .date{
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .speaker .name{
-    /*font-size: 5vw*/
-  }
-  .speaker .copy{
-    margin-left: 10vw;
-    margin-top: 22vh;
-  }
-  .speaker .description{
-    width: 80vw;
-    margin-right: 0;
-    margin-bottom: 5vh;
-  }
-  .speaker .photo{
-    max-width: 80vw;
-    max-height: 50vh;
-    margin-bottom: 5vh;
-  }
-  .speaker.selected{
-    max-height: 200vh;
-  }
-  .speaker.future.current{
-    max-height: 200vh;
-  }
-  .footer{
-    flex-direction: column;
-  }
-  .title{
-    width: 80vw;
-    height: 10vh;
-    padding-left: 10vw;
-    align-items: flex-end;
-    background-color: black;
-    z-index: 7;
-
-  }
-  .leftfooter, .rightfooter {
-    padding: 0;
-    padding-top: 50px;
-    width: 85%;
-    margin: auto;
-  }
-  .rightfooter input {
-    width: 110px;
-  }
+    #IDS {
+        pointer-events: none;
+        position: absolute;
+        transition: .25s;
+        left: calc(90vw - 100px+ 13px);
+        top: 80vh;
+    }
+    #IDSload {
+        width: 70vw;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+    .aboutButton {
+        left: calc(90vw - 100px);
+    }
+    .aboutButton p {
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+    .schedule {
+        left: 10vw;
+    }
+    .ids {
+        left: 10vw;
+    }
+    .ids.showAbout {
+        width: 80vw;
+    }
+    .professor {
+        width: 80vw
+    }
+    .profDesc div {
+        max-width: 80vw;
+    }
+    .idsBlurb {
+        width: 80vw;
+    }
+    .credit {
+        display: none;
+    }
+    .blurb {
+        width: 80vw
+    }
+    .blurbContainer {
+        margin-left: 10vw;
+        flex-direction: column;
+    }
+    .rose {
+        display: none;
+    }
+    .speaker {
+        width: calc(100% - 2px);
+        max-height: 20vh;
+    }
+    .marker {
+        left: 3.5vw;
+    }
+    .speaker .month {
+        font-size: 17px;
+    }
+    .copy {
+        flex-direction: column-reverse;
+    }
+    .dateContainer {
+        flex-direction: column;
+    }
+    .speaker .date {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .speaker .copy {
+        margin-left: 10vw;
+        margin-top: 22vh;
+    }
+    .speaker .description {
+        width: 80vw;
+        margin-right: 0;
+        margin-bottom: 5vh;
+    }
+    .speaker .photo {
+        max-width: 80vw;
+        max-height: 50vh;
+        margin-bottom: 5vh;
+    }
+    .speaker.selected {
+        max-height: 200vh;
+    }
+    .speaker.future.current {
+        max-height: 200vh;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .title {
+        width: 80vw;
+        height: 10vh;
+        padding-left: 10vw;
+        align-items: flex-end;
+        background-color: black;
+        z-index: 7;
+    }
+    .leftfooter, .rightfooter {
+        padding: 0;
+        padding-top: 50px;
+        width: 85%;
+        margin: auto;
+    }
+    .rightfooter input {
+        width: 110px;
+    }
 }
