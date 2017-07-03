@@ -18,7 +18,7 @@ $( document ).ready(function() {
        state="mobile"
        $('.logo').css('height', window.innerHeight+'px');
        $('.homeContainer').css('height', window.innerHeight+'px');
-       $('#ids').css('top', window.innerHeight * 0.8 +'px');
+       $('#ids').css('top', window.innerHeight * 0.5 +'px');
    }else{
      state="desktop"
    }
