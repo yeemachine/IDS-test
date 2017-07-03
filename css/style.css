@@ -582,6 +582,7 @@ h1 {
     }
     .profTitle{
       margin-left: 0;
+      width: 80vw;
     }
     .profDesc div {
         max-width: 80vw;
