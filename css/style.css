@@ -528,13 +528,17 @@ h1 {
 .rightfooter input {
     font-family: 'Halyard Text', Helvetica, Arial, sans-serif;
     ;
-    width: 220px;
+    width: 200px;
     font-size: 15px;
     border: none;
     color: white;
     border-bottom: 1px solid white;
     background-color: black;
     outline: none;
+}
+.rightfooter input:focus {
+    background-color: white;
+    color: black;
 }
 .rightfooter button {
     font-family: 'Halyard Text', Helvetica, Arial, sans-serif;
@@ -549,6 +553,10 @@ h1 {
     background-color: white;
     border: 1px solid white;
     color: black;
+}
+
+.rightfooter button:active {
+  opacity: .5;
 }
 .copyright {
     font-size: 13px;
@@ -629,6 +637,9 @@ h1 {
     }
     .dateContainer {
         flex-direction: column;
+    }
+    .speaker .name {
+        margin-bottom: -8px;
     }
     .speaker .date {
         margin: 0;
