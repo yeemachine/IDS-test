@@ -575,6 +575,7 @@ h1 {
     }
     .idsBlurb, .blurb, .ids.showAbout, .professor {
         width: 80vw;
+        max-width: 80vw;
     }
     .idsBlurb.selected2 {
         max-height: 45vh;
