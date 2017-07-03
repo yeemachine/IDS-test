@@ -136,6 +136,10 @@ a.glaser:hover {
     a.glaser:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 1);
     }
+    .home.glaser{
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
 
 }
