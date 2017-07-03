@@ -631,6 +631,7 @@ h1 {
         flex-direction: column;
     }
     .speaker .date {
+        margin: 0;
     }
     .speaker .copy {
         margin-left: 10vw;
