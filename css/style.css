@@ -1,38 +1,38 @@
 @font-face {
-    font-family: 'Halyard Display Regular';
+    font-family: 'Halyard Display';
     src: url('../webfonts/halyarddis-regular-webfont.woff2') format('woff2'), url('../webfonts/halyarddis-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Halyard Display Black';
+    font-family: 'Halyard Display';
     src: url('../webfonts/halyarddisblack-webfont.woff2') format('woff2'), url('../webfonts/halyarddisblack-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Halyard Display Extra Light';
+    font-family: 'Halyard Display';
     src: url('../webfonts/halyarddisexlt-webfont.woff2') format('woff2'), url('../webfonts/halyarddisexlt-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Halyard Text Regular';
+    font-family: 'Halyard Text';
     src: url('../webfonts/HalyardText-Reg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Halyard Text Bold';
+    font-family: 'Halyard Text';
     src: url('../webfonts/HalyardText-Bd.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Halyard Text Italic';
+    font-family: 'Halyard Text';
     src: url('../webfonts/HalyardText-It.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 }
 @keyframes load {
     0% {
@@ -74,28 +74,25 @@
 }
 html, body {
     background-color: black;
+    font-family: 'Halyard Text', sans-serif;
+    font-size: 15px;
     color: white;
     margin: 0;
     padding: 0;
-    text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 15px;
     -webkit-overflow-scrolling: touch;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
 .social a {
     text-decoration: none;
-    color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .social a:hover {
-    color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 #IDS {
@@ -105,95 +102,86 @@ a {
     width: 100px;
     z-index: 9;
 }
-.load {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    animation: load 3s forwards;
-}
 #IDSload {
     height: 35vh;
     margin-bottom: 5vh;
 }
-.home {
-    position: absolute;
+.home, .load {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    position: absolute;
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.home {
     opacity: 0;
     transition: .25s;
     animation: appear 3s forwards;
     z-index: 3;
 }
+.load {
+    z-index: 10;
+    animation: load 3s forwards;
+    width: 100%;
+}
 .homeContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
     width: 100vw;
     max-width: 100%;
     height: 100vh;
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
-    position: relative;
 }
 .about {
-    position: absolute;
-    width: calc(100% - 2vw);
-    height: calc(100vh - 2vw);
-    background-color: black;
-    margin-left: 100vw;
-    transition: .25s;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    position: absolute;
+    width: calc(100% - 2vw);
+    height: calc(100vh - 2vw);
+    margin-left: 100vw;
+    transition: .25s;
     z-index: 2;
 }
 .blurbContainer {
     display: flex;
     align-items: flex-start;
+    flex-direction: row;
     justify-content: center;
     margin-left: 2vw;
     margin-top: calc(50px + 2vw);
-    flex-direction: row;
 }
 .blurb {
+    display: flex;
+    flex-direction: column;
     min-width: 40vw;
     max-width: calc(100vw - 9vw - 80px);
     max-height: 80vh;
     text-align: left;
-    display: flex;
-    flex-direction: column;
 }
 .rose {
     opacity: 1;
     height: 40vh;
-    margin-right: 5vw;
-    margin-left: 5vw;
+    margin: 0 5vw 0 5vw;
 }
 .home.showAbout {
-    margin-left: -100vw
+    margin-left: -100vw;
 }
 .about.showAbout {
-    margin-left: 0vw
+    margin-left: 0vw;
 }
 .ids {
-    text-align: left;
     position: absolute;
     top: 2vw;
     left: 3vw;
-    font-weight: normal;
-    font-size: 15px;
     z-index: 5;
     opacity: 0;
     animation: appear 3s forwards;
     line-height: 1.3;
-    transition: .25s
+    transition: .25s;
 }
 .ids.showAbout {
     width: calc(100vw - 9vw - 100px);
@@ -202,30 +190,25 @@ a {
 .ids.showAbout:hover {
     cursor: pointer;
 }
-
 h1 {
-    font-family: 'Halyard Text Bold';
-    font-weight: normal;
+    font-family: 'Halyard Text';
+    font-weight: bold;
     font-size: 15px;
-    line-height: normal;
     margin: 0;
-    display: inline-block;
 }
 .schedule {
-    text-align: left;
-    position: absolute;
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    text-align: left;
+    position: absolute;
     left: 3vw;
     top: calc(50px + 2vw);
-    line-height: 1.2
+    line-height: 1.2;
 }
 .scheduleDate {
     margin-right: 15px;
 }
 .aboutButton {
-    font-family: 'Halyard Text Regular';
     position: absolute;
     width: 100px;
     text-align: right;
@@ -254,16 +237,15 @@ h1 {
     cursor: pointer;
 }
 .idsBlurb {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
     overflow-y: hidden;
     padding: 0;
     max-height: 0;
     transition: .25s;
     color: rgba(0, 0, 0, 0);
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
 }
-
 .idsBlurb.selected2 {
     padding-bottom: 5vh;
     max-height: 100vh;
@@ -281,26 +263,26 @@ h1 {
     transition: .25s;
 }
 .profTitle {
-    display: inline-block;
-    font-family: 'Halyard Text Bold';
-    width: 80%;
-    height: 10vh;
-    margin-left: 5vw;
     display: flex;
     align-items: center;
     position: absolute;
+    font-family: 'Halyard Text';
+    font-weight: bold;
+    width: 80%;
+    height: 10vh;
+    margin-left: 5vw;
 }
 .profTitle:hover {
     cursor: pointer;
 }
 .profDesc {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     color: rgba(0, 0, 0, 0);
     transition: .25s;
     margin-bottom: 5vh;
     margin-top: 10vh;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
 }
 .profDesc div {
     max-width: 45%;
@@ -311,7 +293,6 @@ h1 {
     z-index: 9;
     bottom: .5vw;
     right: 2vw;
-    font-family: 'Halyard Text Regular';
     pointer-events: none;
     opacity: 0;
     width: 100px;
@@ -324,7 +305,7 @@ h1 {
     color: #ffffff
 }
 .artistName {
-    font-family: 'Halyard Display Black', Helvetica, Arial, sans-serif;
+    font-family: 'Halyard Display', sans-serif;
     font-weight: 900;
     font-size: 11vw;
     transform-origin: center;
@@ -332,13 +313,10 @@ h1 {
 }
 .credit {
     position: absolute;
-    left: 0;
     top: 90vh;
     width: 100%;
     font-size: 12px;
     text-align: center;
-    pointer-events: none;
-    transform-origin: right;
 }
 .info {
     padding-top: 15vh;
@@ -376,10 +354,9 @@ h1 {
   color:rgba(255,255,255,0.3);
   border-left: 1px solid rgba(255,255,255,0.3)
 }*/
-
 .info .speaker:last-child:after{
       content: "";
-      background: rgba(0, 0, 0, .7);
+      background: rgba(0, 0, 0, .5);
       position: absolute;
       bottom: 0;
       left: -1px;
@@ -392,13 +369,12 @@ h1 {
 .spring{
   display: block;
   pointer-events: none;
-
 }
 .spring.unlocked{
   pointer-events: all;
 }
 .spring .speaker{
-  border-left: 1px solid rgba(255,255,255,0.3);
+  border-left: 1px solid rgba(255,255,255,0.2);
   color:rgba(255,255,255,0.3);
   height: 20vh;
 }
@@ -415,7 +391,6 @@ h1 {
       height: 4.5vh;
       width: 1px
 }
-
 .speaker {
     position: relative;
     display: flex;
@@ -426,23 +401,23 @@ h1 {
     color: white;
     width: 92.5vw;
     margin: auto;
-    border-left: 1px solid white;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
     transition: 0.1s;
     overflow: visible;
 }
-
 .title {
-    width: 87.5vw;
-    padding-left: 5vw;
-    padding-top: 7vh;
-    padding-bottom: 3vh;
-    height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     position: absolute;
+    width: 87.5vw;
+    padding: 7vh 0 3vh 5vw;
+    height: 10vh;
 }
 .marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     background-color: rgba(255, 255, 255, 0);
@@ -450,9 +425,6 @@ h1 {
     position: absolute;
     bottom: calc(3vh + 8px);
     left: -9px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .title:hover {
     cursor: pointer;
@@ -462,21 +434,14 @@ h1 {
     flex-direction: row-reverse;
     align-items: flex-start;
 }
-.event p {
-    font-size: 14px;
-    display: inline-block;
-    width: 30px;
-}
 .speaker .copy {
     opacity: 0;
-    margin-left: 10.5vw;
-    margin-top: 22vh;
+    margin: 22vh 0 0 10.5vw;
     color: white;
     transition: .25s;
     pointer-events: none;
 }
 .speaker .description {
-    font-size: 15px;
     width: 50%;
     margin-right: 5vw;
 }
@@ -484,8 +449,6 @@ h1 {
     max-width: 50%;
     max-height: 70vh;
     margin-right: 5vw;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 .website {
     margin-top: 5vh;
@@ -513,10 +476,12 @@ h1 {
 .speaker .month {
     width: 3vw;
     font-size: 1.5vw;
-    font-family: 'Halyard Text Bold', Arial, sans-serif;
+    font-family: 'Halyard Text', sans-serif;
+    font-weight: bold;
 }
 .date {
-    font-family: 'Halyard Display Extra Light', Arial, sans-serif;
+    font-family: 'Halyard Display', sans-serif;
+    font-weight: lighter;
     line-height: 1;
 }
 .dateContainer {
@@ -525,30 +490,23 @@ h1 {
     align-items: baseline;
 }
 .speaker .date {
-    font-size: 7.5vw;
-    margin-left: 2.5vw;
-    margin-right: 0vw;
-    width: 12vw;
-    font-weight: 400;
     display: flex;
+    font-size: 7.5vw;
+    margin: 0 0 0 2.5vw;
+    width: 12vw;
 }
 .speaker .name {
+    font-family: "Halyard Text";
+    font-weight: bold;
     width: 70vw;
     display: inline-block;
     font-size: calc(25px + 1vw);
-    font-weight: normal;
-    font-family: "Halyard Text Bold";
 }
 .footer {
     display: flex;
-    background-color: black;
-    text-align: left;
     width: 92.5vw;
     margin: auto;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding: 15vh 0 15vh 0;
 }
 .leftfooter img {
     width: 70px;
@@ -560,10 +518,10 @@ h1 {
     width: 50%;
 }
 .rightfooter input {
-    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
+    font-family: 'Halyard Text', Helvetica, Arial, sans-serif;
     ;
     width: 220px;
-    font-size: 17px;
+    font-size: 15px;
     border: none;
     color: white;
     border-bottom: 1px solid white;
@@ -571,25 +529,18 @@ h1 {
     outline: none;
 }
 .rightfooter button {
-    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
-    ;
-    font-size: 17px;
+    font-family: 'Halyard Text', Helvetica, Arial, sans-serif;
+    font-size: 15px;
     margin-left: 10px;
-    padding: 5px;
     background-color: black;
     border: 1px solid white;
     color: white;
     outline: none;
 }
 .rightfooter button:hover {
-    font-family: 'Halyard Text Regular', Helvetica, Arial, sans-serif;
-    ;
-    font-size: 17px;
-    margin-left: 10px;
     background-color: white;
     border: 1px solid white;
     color: black;
-    outline: none;
 }
 .copyright {
     font-size: 13px;
@@ -622,11 +573,8 @@ h1 {
         left: 9vw;
         top:8vw;
     }
-    .ids.showAbout {
+    .idsBlurb, .blurb, .ids.showAbout, .professor {
         width: 80vw;
-    }
-    .professor {
-        width: 80vw
     }
     .profTitle{
       margin-left: 0;
@@ -634,14 +582,8 @@ h1 {
     .profDesc div {
         max-width: 80vw;
     }
-    .idsBlurb {
-        width: 80vw;
-    }
     .credit {
         display: none;
-    }
-    .blurb {
-        width: 80vw
     }
     .blurbContainer {
         margin-left: 8vw;
@@ -668,8 +610,6 @@ h1 {
         flex-direction: column;
     }
     .speaker .date {
-        margin-right: 0;
-        margin-left: 0;
     }
     .speaker .copy {
         margin-left: 10vw;
@@ -677,20 +617,17 @@ h1 {
     }
     .speaker .description {
         width: 80vw;
-        margin-right: 0;
-        margin-bottom: 5vh;
+        margin: 0 0 5vh 0;
     }
     .speaker .photo {
         max-width: 80vw;
         max-height: 50vh;
         margin-bottom: 5vh;
     }
-    .speaker.selected {
+    .speaker.selected, .speaker.future.current {
         max-height: 200vh;
     }
-    .speaker.future.current {
-        max-height: 200vh;
-    }
+
     .footer {
         flex-direction: column;
     }
@@ -703,8 +640,7 @@ h1 {
         z-index: 7;
     }
     .leftfooter, .rightfooter {
-        padding: 0;
-        padding-top: 50px;
+        padding: 50px 0 0 0;
         width: 85%;
         margin: auto;
     }
