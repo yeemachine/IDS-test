@@ -586,7 +586,7 @@ h1 {
     }
     .blurbContainer {
         margin-left: 8vw;
-        margin-top: 18.5vw;
+        margin-top: calc(10vh + 8vw - 15px);
         flex-direction: column;
     }
     .rose {
