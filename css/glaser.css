@@ -72,13 +72,15 @@
 }
 .speaker:hover.glaser {
     color: rgba(71, 120, 255, 1);
+    border-left: 1px solid rgba(255, 255, 255, .2);
 }
 .speaker.past.glaser {
     border-left: 1px solid rgba(71, 120, 255, 1);
     color: white;
 }
 .speaker.past.glaser:hover {
-    color: rgba(71, 120, 255, 1)
+    color: rgba(71, 120, 255, 1);
+    border-left: 1px solid rgba(71, 120, 255, .5);
 }
 .speaker.future.current.glaser .title {
     color: rgba(71, 120, 255, 1);

@@ -339,6 +339,15 @@ h1 {
     animation: pulsate 1s cubic-bezier(0.670, 0.005, 0.200, 1.000) infinite;
     animation-fill-mode: forwards;
 }
+/*.info .speaker:nth-child(2):after{
+      content: "";
+      background: rgba(0, 0, 0, .5);
+      position: absolute;
+      top: 0;
+      left: -1px;
+      height: 4.5vh;
+      width: 1px
+}*/
 /*.info .speaker:first-child:after{
       content: "";
       background: rgba(0, 0, 0, 1);
@@ -355,7 +364,7 @@ h1 {
 }*/
 .info .speaker:last-child:after{
       content: "";
-      background: rgba(0, 0, 0, .5);
+      background: #333333;
       position: absolute;
       bottom: 0;
       left: -1px;
