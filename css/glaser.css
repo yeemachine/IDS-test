@@ -126,11 +126,15 @@ a.glaser:hover {
     }
     .speaker:hover.glaser {
         color: rgba(255, 255, 255, 1);
+        border-left: 1px solid rgba(255, 255, 255, 1);
     }
     .speaker.past:hover.glaser {
         color: rgba(255, 255, 255, 1);
+        border-left: 1px solid rgba(71, 120, 255, 1);
     }
     a.glaser:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 1);
     }
+
+  
 }
