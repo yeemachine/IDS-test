@@ -248,7 +248,7 @@ h1 {
 }
 .idsBlurb.selected2 {
     padding-bottom: 5vh;
-    max-height: 100vh;
+    max-height: 60vh;
 }
 .professor {
     max-height: 10vh;
@@ -259,7 +259,7 @@ h1 {
   margin-left: 10vw;
 }
 .professor.selected2 {
-    max-height: 100vh;
+    max-height: 60vh;
     transition: .25s;
 }
 .profTitle {
