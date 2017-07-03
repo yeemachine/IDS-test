@@ -11,8 +11,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Halyard Display';
-    src: url('../webfonts/halyarddisexlt-webfont.woff2') format('woff2'), url('../webfonts/halyarddisexlt-webfont.woff') format('woff');
+    font-family: 'Halyard Numbers';
+    src: url('../webfonts/halyardnum.woff2') format('woff2'), url('../webfonts/halyarddnum.woff') format('woff');
     font-weight: lighter;
     font-style: normal;
 }
@@ -113,7 +113,7 @@ a {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 .home {
     opacity: 0;
@@ -314,7 +314,6 @@ h1 {
 .credit {
     position: absolute;
     top: 90vh;
-    width: 100%;
     font-size: 12px;
     text-align: center;
 }
@@ -480,7 +479,7 @@ h1 {
     font-weight: bold;
 }
 .date {
-    font-family: 'Halyard Display', sans-serif;
+    font-family: 'Halyard Numbers', sans-serif;
     font-weight: lighter;
     line-height: 1;
 }

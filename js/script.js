@@ -25,6 +25,7 @@ $( document ).ready(function() {
 
 
 $('.logo').css('height', window.innerHeight+'px');
+$('.homeContainer').css('height', window.innerHeight+'px');
 
  $.getJSON("database.json", function(json) {
    var container = $("<div class='eventcontainer'></div>");
