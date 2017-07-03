@@ -23,20 +23,20 @@ $( document ).ready(function() {
      state="desktop"
    }
    console.log(state);
-   $(window).resize(function() {
-     if (isMobile.matches) {
-         state="mobile"
-         $('.logo').css('height', window.innerHeight+'px');
-         $('.homeContainer').css('height', window.innerHeight+'px');
-         $('#ids').css('top', window.innerHeight * 0.8 +'px');
-     }else{
-       state="desktop"
-       $('.logo').css('height', '');
-       $('.homeContainer').css('height', '');
-       $('#ids').css('top', '');
-     }
-     console.log(state);
-   });
+  //  $(window).resize(function() {
+  //    if (isMobile.matches) {
+  //        state="mobile"
+  //        $('.logo').css('height', window.innerHeight+'px');
+  //        $('.homeContainer').css('height', window.innerHeight+'px');
+  //        $('#ids').css('top', window.innerHeight * 0.8 +'px');
+  //    }else{
+  //      state="desktop"
+  //      $('.logo').css('height', '');
+  //      $('.homeContainer').css('height', '');
+  //      $('#ids').css('top', '');
+  //    }
+  //    console.log(state);
+  //  });
 
 
 

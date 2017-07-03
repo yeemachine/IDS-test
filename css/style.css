@@ -141,7 +141,7 @@ a {
     justify-content: flex-start;
     position: absolute;
     width: calc(100% - 2vw);
-    height: calc(100vh - 2vw);
+    height: calc(100% - 2vw);
     margin-left: 100vw;
     transition: .25s;
     z-index: 2;
