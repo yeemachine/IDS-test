@@ -598,10 +598,14 @@ h1 {
         max-height: 20vh;
     }
     .marker {
-        left: 3.5vw;
+        width: 20px;
+        height: 20px;
+        left: -10px;
     }
     .marker.begin.show{
-        left: 3.5vw;
+        width: 20px;
+        height: 20px;
+        left: -10px;
     }
     .speaker .month {
         font-size: 17px;
