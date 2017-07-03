@@ -558,7 +558,8 @@ h1 {
         margin-bottom: 5vh;
     }
     .aboutButton {
-        left: calc(89vw - 100px);
+        /*left: calc(89vw - 100px);*/
+        right: 9vw;
         top:8vw;
     }
     .aboutButton p {
