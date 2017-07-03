@@ -134,6 +134,7 @@ a {
     max-width: 100%;
     height: 100vh;
     overflow: hidden;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
 }
 .about {
     display: flex;
@@ -207,6 +208,11 @@ h1 {
 }
 .scheduleDate {
     margin-right: 15px;
+}
+.currentDate{
+  position: absolute;
+  top: 87vh;
+  font-weight: bold;
 }
 .aboutButton {
     position: absolute;
@@ -310,6 +316,7 @@ h1 {
     font-size: 11vw;
     transform-origin: center;
     margin: 0;
+    padding: 50px;
 }
 .credit {
     position: absolute;
@@ -318,7 +325,7 @@ h1 {
     text-align: center;
 }
 .info {
-    padding-top: 15vh;
+    /*padding-top: 15vh;*/
     z-index: 2;
 }
 .eventcontainer{
