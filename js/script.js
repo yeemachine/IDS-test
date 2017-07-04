@@ -19,6 +19,7 @@ $( document ).ready(function() {
        $('.logo').css('height', window.innerHeight+'px');
        $('.homeContainer').css('height', window.innerHeight+'px');
        $('#IDS').css('top', window.innerHeight * 0.8 +'px');
+       $('.currentDate').css('top', window.innerHeight * 0.8 +'px');
    }else{
      state="desktop"
    }
