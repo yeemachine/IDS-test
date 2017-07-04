@@ -18,8 +18,8 @@ $( document ).ready(function() {
        state="mobile"
        $('.logo').css('height', window.innerHeight+'px');
        $('.homeContainer').css('height', window.innerHeight+'px');
-       $('#IDS').css('bottom', window.innerHeight * 0.2 +'px');
-       $('.currentDate').css('bottom', window.innerHeight * 0.2 +'px');
+       $('#IDS').css('top', window.innerHeight * 0.8 +'px');
+       $('.currentDate').css('top', window.innerHeight * 0.9 +'px');
    }else{
      state="desktop"
    }
