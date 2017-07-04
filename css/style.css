@@ -282,7 +282,7 @@ h1 {
     width: 80%;
     height: 15vh;
     margin-left: 5vw;
-    font-size: calc(25px + 1vw)
+    font-size: calc(15px + 1vw)
 }
 .profTitle:hover {
     cursor: pointer;
