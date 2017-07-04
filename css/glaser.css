@@ -17,22 +17,22 @@
   border: 1vw solid rgba(0, 0, 0, 1);
 }
 .aboutButton.glaser.showAbout{
-    color: rgba(71, 120, 255,1)
+    color: rgba(255, 255, 255,1)
 }
 .aboutButton.glaser{
-  color: rgba(71, 120, 255,1)
+  color: rgba(255, 255, 255,1)
 }
 .aboutButton.glaser p {
-    border-bottom: 1px solid rgba(71, 120, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .aboutButton.glaser p:hover {
-    border-bottom: 1px solid rgba(71, 120, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 .aboutButton.glaser.showAbout p {
-    border-bottom: 1px solid rgba(71, 120, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .aboutButton.glaser.showAbout p:hover {
-    border-bottom: 1px solid rgba(71, 120, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 .strokeText.glaser.showAbout {
     color: #ffffff
