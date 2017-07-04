@@ -609,6 +609,7 @@ h1 {
     }
     .professor.selected2 {
       max-height: 65vh;
+      height: 65vh
     }
     .idsBlurb.selected2 {
         max-height: 45vh;
