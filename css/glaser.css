@@ -14,7 +14,7 @@
 }
 .about.glaser {
   background-color: black;
-  border: 1vw solid rgba(71, 120, 255, 1);
+  border: 1vw solid rgba(0, 0, 0, 1);
 }
 .aboutButton.glaser.showAbout{
     color: rgba(71, 120, 255,1)
