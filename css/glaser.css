@@ -117,7 +117,7 @@ a.glaser:hover {
 }
 .home.glaser {
   border-style: none;
-  background-image: url('http://www.reginajosegalindo.com/wp-content/uploads/tumba3-720x480.jpg'), url(../assets/img/globe.gif);
+  background-image: url('http://www.reginajosegalindo.com/wp-content/uploads/tumba3-720x480.jpg'), url(../assets/img/hypercube.gif);
   background-repeat: no-repeat, no-repeat;
   background-position: center, center;
   /*background-attachment: scroll, fixed;*/
