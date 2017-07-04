@@ -212,6 +212,8 @@ h1 {
 .currentDate{
   position: absolute;
   top: 87vh;
+  width: 100%;
+  left:0;
   font-weight: bold;
 }
 .aboutButton {
